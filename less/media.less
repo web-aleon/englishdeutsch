@@ -208,6 +208,24 @@
 	}
 	// END ALL LESSONS
 
+	// MAP
+	#map{
+		
+		.contact{
+			
+			div{
+					padding: 0;	
+			}
+			a{
+					font-size: 0.9em;
+			}
+			a.email{
+					font-size: 0.8em;
+			}
+		}
+	}
+	// END MAP
+
 }
 
 @media (max-width: 767px){
@@ -461,5 +479,43 @@
 		// END NATIVE
 
 	// END ALL LESSONS
+
+	// MAP
+	#map{
+
+		.text{
+			height: 70px;
+			padding: 0;
+
+			h2{
+				margin-top: 20px;
+				font-size: 1.8em;
+			}	
+		}
+		.picture{
+			background-size: 320px auto;
+			background-position: 50% 50%;
+			height: 100px;
+		}
+		.contact{
+			height: auto;
+
+			.phones{
+				width: 100%;
+				padding-left: 25%;
+				font-size: 1.2em;
+				border-bottom: 2px solid @white;
+			}
+			.feedbackform{
+				width: 100%;
+				margin-bottom: 15px;
+				
+				input{
+					font-size: 1.2em;
+				}
+			}
+		}
+	}
+	// END MAP
 
 }

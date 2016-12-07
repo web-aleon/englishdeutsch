@@ -822,6 +822,135 @@ header nav.navbar li:hover {
   background: #FFE94A;
   color: #444444;
 }
+#map {
+  padding: 0;
+}
+#map hr {
+  margin: 10px 0px;
+}
+#map h2 {
+  text-align: center;
+  margin-top: 10px;
+}
+#map h3 {
+  margin-top: 10px;
+  margin-bottom: 5px;
+  font-size: 1.4em;
+}
+#map a {
+  color: #fff;
+}
+#map a:hover {
+  text-decoration: none;
+}
+#map .text,
+#map .picture {
+  height: 300px;
+}
+#map .text {
+  background: #FFE94A;
+}
+@media (max-width: 767px) {
+  #map .text {
+    height: 70px;
+    padding: 0;
+  }
+}
+#map .text h2 {
+  margin-top: 30px;
+}
+@media (max-width: 767px) {
+  #map .text h2 {
+    margin-top: 20px;
+  }
+}
+@media (max-width: 415px) {
+  #map .text h2 {
+    font-size: 1.8em;
+  }
+}
+#map .picture {
+  background: #000 url('../img/map-bg.jpg') no-repeat;
+  background-size: 100% 100%;
+}
+@media (max-width: 767px) {
+  #map .picture {
+    background-size: 320px auto;
+    background-position: 50% 50%;
+    height: 100px;
+  }
+}
+#map .googlemap {
+  padding: 0px;
+  height: 300px;
+  margin: 0;
+}
+#map .contact {
+  height: 300px;
+  background: #444444;
+  color: #fff;
+  font-weight: lighter;
+}
+@media (max-width: 415px) {
+  #map .contact {
+    height: auto;
+  }
+}
+@media (max-width: 860px) {
+  #map .contact div {
+    padding: 0;
+  }
+}
+@media (max-width: 860px) {
+  #map .contact a {
+    font-size: 0.9em;
+  }
+}
+@media (max-width: 860px) {
+  #map .contact a.email {
+    font-size: 0.8em;
+  }
+}
+@media (max-width: 415px) {
+  #map .contact .phones {
+    width: 100%;
+    padding-left: 25%;
+    font-size: 1.2em;
+    border-bottom: 2px solid #fff;
+  }
+}
+@media (max-width: 415px) {
+  #map .contact .feedbackform {
+    width: 100%;
+    margin-bottom: 15px;
+  }
+  #map .contact .feedbackform input {
+    font-size: 1.2em;
+  }
+}
+#mapFeedback input {
+  display: block;
+  height: 30px;
+  width: 50%;
+  margin: 10px auto 20px;
+  border: 2px solid #cccccc;
+  padding: 5px;
+  color: #444444;
+  font-size: 1em;
+}
+#mapFeedback button {
+  display: block;
+  height: 40px;
+  margin: 0 auto;
+  padding: 3px 20px;
+  background: #444444;
+  border: 2px solid #fff;
+  border-radius: 5px;
+  text-transform: uppercase;
+}
+#mapFeedback button:hover {
+  background: #2b2b2b;
+}
 body#mainPage {
   background: none;
   padding: 0;

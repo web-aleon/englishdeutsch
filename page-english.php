@@ -483,7 +483,43 @@ get_header('landing'); ?>
 			</section>
 			<!-- END TEACHERS -->
 
-			<div class="container-fluid empty-water"></div> 
+			<div class="container-fluid empty-water"></div>
+
+			<!-- MAP -->
+			<section id="map" class="container-fluid">
+			    <div class="col-sm-5 col-xs-12 text">
+			      <h2>English & Deutsch club</h2>
+			    </div>
+			    <div class="col-sm-7 col-xs-12 picture">
+			      
+			    </div>
+			    <div class="col-sm-5 col-xs-12 googlemap">
+			      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1633.7275093532878!2d30.746285563007753!3d46.47660458278003!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40c6319df98ff295%3A0x1e7e4fe40573cd08!2z0LLRg9C70LjRhtGPINCa0LDQvdCw0YLQvdCwLCAzNiwg0J7QtNC10YHQsCwg0J7QtNC10YHRjNC60LAg0L7QsdC70LDRgdGC0YwsINCj0LrRgNCw0LjQvdCw!5e0!3m2!1sru!2sru!4v1471904775874" width="100%" height="300px" frameborder="0" style="border:0" allowfullscreen></iframe>
+			    </div>
+			    <div class="col-sm-7 col-xs-12 contact">
+			      <h2>Свяжитесь <span>с нами</span></h2>
+			      <hr>
+			      <div class="col-sm-4 col-xs-4 phones">
+			        <h3>Телефон</h3>
+			        <!-- <a href="#">+38 (067) 715 29 31</a> -->
+			        <a href="tel:+380635136295"><span itemprop="telephone">+38 (063) 513 62 95</span></a>
+			        <br>
+			        <h3>Email</h3>
+			        <a href="#" class="email"><span itemprop="email">englishdeutschcourses@gmail.com</span></a>
+			        <h3>Наш адрес:</h3>
+			        <span itemprop="address" itemscope itemtype="http://schema.org/PostalAddress"><p itemprop="streetAddress">ул. Канатная 36</span></p>
+			      </div>
+			      <!-- <div class="col-sm-8 col-xs-8 feedbackform">
+			        <form action="" id="mapFeedback">
+			          <input type="text" name="name" placeholder="Имя" required>
+			          <input type="text" name="phone" placeholder="Телефон" required>
+			          <input type="email" name="email" placeholder="Email">
+			          <button>Отправить</button>
+			        </form>
+			      </div> -->
+			    </div>
+			</section>
+			<!-- END MAP --> 
 
 		</main><!-- #main -->
 	</div><!-- #primary -->

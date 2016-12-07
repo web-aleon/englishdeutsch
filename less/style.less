@@ -959,6 +959,135 @@ header{
 }
 //END TEACHERS
 
+// MAP
+#map{
+	padding: 0;
+	hr{
+		margin:10px 0px;
+	}
+	h2{
+		text-align: center;
+		margin-top: 10px;
+	}
+	h3{
+		margin-top: 10px;
+		margin-bottom: 5px;
+		font-size: 1.4em;
+	}
+	a{
+		color: @white;
+	}
+	a:hover{
+		text-decoration: none;
+	}
+	.text, .picture{
+		height: 300px;
+	}
+	.text{
+		background: @yellow;
+
+		@media (max-width: 767px){
+			height: 70px;
+			padding: 0;	
+		}	
+
+		h2{
+			margin-top: 30px;
+
+			@media (max-width: 767px){
+				margin-top: 20px;	
+			}
+			@media (max-width: 415px){
+				font-size: 1.8em;
+			}		
+		}	
+	}
+	.picture{
+		background: @black url('../img/map-bg.jpg') no-repeat;
+		background-size: 100% 100%;
+
+		@media (max-width: 767px){
+			background-size: 320px auto;
+			background-position: 50% 50%;
+			height: 100px;
+		}
+	}
+	.googlemap{
+		padding: 0px;
+		height: 300px;
+		margin: 0;
+	}
+	.contact{
+		height: 300px;
+		background: @gray;
+		color: @white;
+		font-weight: lighter;
+
+		@media (max-width: 415px){
+			height:auto;
+		}
+
+		div{
+			@media (max-width: 860px){
+				padding: 0;	
+			}	
+		}
+		a{
+			@media (max-width: 860px){
+				font-size: 0.9em;
+			}
+		}
+		a.email{
+			@media (max-width: 860px){
+				font-size: 0.8em;
+			}
+		}
+		.phones{
+			@media (max-width: 415px){
+				width: 100%;
+				padding-left: 25%;
+				font-size: 1.2em;
+				border-bottom: 2px solid @white;
+			}
+		}
+		.feedbackform{
+			@media (max-width: 415px){
+				width: 100%;
+				margin-bottom: 15px;
+				
+				input{
+					font-size: 1.2em;
+				}
+			}
+		}
+	}
+}
+#mapFeedback{
+	input{
+		display: block;
+		height: 30px;
+		width: 50%;
+		margin: 10px auto 20px;
+		border: 2px solid darken(@white, 20%);
+		padding: 5px;
+		color: @gray;
+		font-size: 1em;
+	}
+	button{
+		display: block;
+		height: 40px;
+		margin: 0 auto;
+		padding: 3px 20px;
+		background: @gray;
+		border: 2px solid @white;
+		border-radius: 5px;
+		text-transform: uppercase;
+	}
+	button:hover{
+		background: darken(@gray, 10%);
+	}
+}
+// END MAP
 
 // ----------------------------------------------------------------------------------------------
 
