@@ -1,0 +1,357 @@
+// VARIABLE
+@yellow: #FFE94A;
+@purple: #1E0034;
+@gray: #2A2A2A;
+// END VARIABLE
+// MIXINS
+.round(@topleft, @topright, @bottomright, @bottomleft) {
+  -webkit-border-top-left-radius: @topleft;
+  -webkit-border-top-right-radius: @topright;
+  -webkit-border-bottom-right-radius: @bottomright;
+  -webkit-border-bottom-left-radius: @bottomleft;
+
+  -moz-border-radius-topleft: @topleft;
+  -moz-border-radius-topright: @topright;
+  -moz-border-radius-bottomright: @bottomright;
+  -moz-border-radius-bottomleft: @bottomleft;
+
+  border-top-left-radius: @topleft;
+  border-top-right-radius: @topright;
+  border-bottom-right-radius: @bottomright;
+  border-bottom-left-radius: @bottomleft;
+}
+// END MIXINS
+body{
+	font-family: 'Roboto', sans-serif;
+}
+h2{
+	text-transform: uppercase;
+	margin-top: 40px;
+	font-weight: 300;
+}
+
+
+// TO BEGIN ARROW
+.nav-to-top{
+	display: inline-block;
+	position: fixed;
+	right: 10px;
+	bottom: 10px;
+	width: 47px;
+	height: 44px;
+	background: green;
+	z-index: 100;
+}
+.nav-to-top:hover{
+	cursor: pointer;
+}
+// END TO BEGIN ARROW
+
+
+header{
+	.head-contacts{
+		background-color: #000;
+	}
+	.mobile{
+		float:right;
+		color: #fff;
+	}
+	nav.navbar{
+		background: none;
+		border: none;
+		margin-top: 10px;
+		margin-bottom: 10px;
+		.logo{
+			background: url('../img/andLogo.png') 48% center no-repeat;
+			background-size: contain;
+			padding: 3px 0 0 0;
+			color: #000;
+		}
+		.logo:hover{
+			text-decoration: none;
+			color: #000;
+		}
+	}
+	.titlescreen{
+		min-height: 450px;
+		background: linear-gradient(to right, @yellow 60%, @gray 40%);	
+		padding: 0px;
+		
+		h1{
+			margin-top: 135px;
+			padding-bottom: 10px;
+			border-bottom: 1px solid @gray;
+			color: @gray;
+			font-weight: normal;
+		}
+		h3{
+			color: @gray;
+		}
+		p{
+			color: @gray;
+			font-size: 1.3em;
+		}
+		.titlefreelesson{
+			padding-left: 0;
+			h2{
+				margin-top: 135px;
+				text-transform: none;
+				line-height: 1.6em;
+				color: #fff;
+			}
+		}
+		// .deutch{
+		// 	margin-top: 50px;
+		// 	height: 200px;
+		// 	background: #117900;
+		// 	.round(0px, 250px, 250px, 0);
+		// 	p{
+		// 		margin-top: 75px;
+		// 		line-height: 20px;
+		// 		color: #fff;
+		// 	}
+		// }
+
+	}
+}
+
+
+#advantage{
+	padding: 0;
+	background: #000;
+	.title-logo{
+		margin-bottom: 30px;
+	}
+	h2{
+		text-align: center;
+		margin-bottom: 20px;
+		font-size: 2.5em;
+		color: #fff;
+	}
+	.logo{
+		background: url('../img/andLogo.png') 36% center no-repeat;
+		background-size: contain;
+		padding: 3px 0 0 0;
+		font-size: 2em;
+		line-height: 1.5em;
+		color: #fff;
+	}
+	.logo:hover{
+		text-decoration: none;
+	}
+	// .odd{
+	// 	text-align: right;
+	// }
+	.adv-container{
+		display: flex;
+		padding: 0;
+	}
+	.adv{
+		width: 20%;
+		height: 328px;
+		background: #fff;
+		border: 1px solid @gray;
+		padding-top: 20px;
+		text-align: center;
+		h3{
+			font-size: 1.3em;
+			font-weight: 300;
+			span{
+				font-weight: bold;
+			}
+		}
+	}
+}
+
+
+#about{
+	height: 450px;
+	background: #fff;
+	h3{
+		font-family: 'Roboto', sans-serif;
+		font-weight: bold;
+	}
+	.underline{
+		display: inline-block;
+		line-height: 2em;
+		border-bottom: 2px solid #000;
+	}
+}
+
+
+#lessons{
+	height: 300px;
+	background: #fff;
+	padding: 0px;
+	text-align: center;
+	p{
+		margin-top: 40%;
+		color: #fff;
+	}
+	.childrens{
+		background: #117900;
+		height: 90%;
+		.round(0, 0, 82% 92%, 0);
+	}
+	.lesselse{
+		height: 100%;
+	}
+	.intensive{
+		height: 75px;
+		background: #117900;
+		.round(0, 0, 50% 100%, 50% 100%);
+		p{
+			margin-top: 5%;
+		}
+	}
+	.shipping{
+		height: 165px;
+		background: #117900;
+		margin-top: 60px;
+		.round(50%, 50%, 13% 50%, 13% 50%);
+	}
+	.standart{
+		height: 185px;
+		background: #117900;
+		margin-top: 30px;
+		.round(50%, 50%, 50%, 50%);
+	}
+	.speaking-club{
+		background: #117900;
+		height: 100%;
+		.round(0, 0, 0, 43% 96%);
+	}
+}
+
+
+#answer-callback{
+	background: #FFC44F;
+	padding-bottom: 10px;
+}
+
+
+.all-lessons{
+	height: 450px;
+	h2{
+		margin-top: 50px;
+	}
+	p{
+		margin-top: 30px;
+	}
+	.lessons-by-week{
+		font-size: 1.5em;
+		font-weight: 300;
+		text-align: right;
+	}
+	.price{
+		font-size: 2em;
+		font-weight: bold;
+		text-align: right;
+	}
+	button{
+		height: 40px;
+		background: #fff;
+		border: 2px solid black;
+		border-radius: 5px;
+		text-transform: uppercase;
+	}
+	button:hover{
+		background: darken(#fff, 20%);
+	}
+}
+#children{
+	background: @purple;
+	h2, p, button{
+		color: #fff;
+	}
+	button{
+		background: @purple;
+		border: 2px solid lighten(@purple, 20%);
+	}
+	button:hover{
+		background: lighten(@purple, 20%);
+	}
+}
+#shipping{
+	background: #fff;
+}
+#intensive{
+	background: @gray;
+	h2, p, button{
+		color: #fff;
+	}
+	button{
+		background: @gray;
+		border: 2px solid lighten(@gray, 20%);
+	}
+	button:hover{
+		background: lighten(@gray, 20%);
+	}
+}
+#standart{
+	background: @yellow;
+	button{
+		background: @yellow;
+		border: 2px solid lighten(black, 20%);
+	}
+	button:hover{
+		background: lighten(@yellow, 20%);
+	}
+}
+#speaking-club{
+	background: #000;
+	h2, p, button{
+		color: #fff;
+	}
+	button{
+		background: #000;
+		border: 2px solid lighten(#000, 20%);
+	}
+	button:hover{
+		background: lighten(#000, 20%);
+	}
+}
+
+
+#testimonials{
+	background: #FFF7DF;
+}
+#empty{
+	height: 300px;
+	background: url('../img/empty-bg-black.png') left bottom no-repeat;
+}
+
+
+#map{
+	h2{
+		text-align: center;
+	}
+	.text, .picture{
+		height: 300px;
+	}
+	.text{
+		background: #FFC44F;
+	}
+	.picture{
+		background: url('../img/tmp1.jpg');
+		background-size: contain;
+	}
+	.googlemap{
+		padding: 0px;
+		min-height: 400px;
+	}
+	.contact{
+		min-height: 400px;
+		background: #FFC44F;
+	}
+}
+
+
+footer{
+	height: 150px;
+	background: #000;
+	color: #fff;
+	a{
+		color: #fff;
+	}
+}

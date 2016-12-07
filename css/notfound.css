@@ -1,0 +1,16 @@
+body{
+	text-align: center;
+	background: #fff;
+}
+p, a{
+	font-size: 20px;
+}
+a{
+	display: block;
+	margin-top: 10px;
+	color: black;
+	text-decoration: underline;
+}
+a:hover{
+	color: #444444;
+}
