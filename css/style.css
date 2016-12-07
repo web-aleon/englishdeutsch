@@ -344,6 +344,44 @@ header nav.navbar li:hover {
   margin-bottom: 0;
   height: 44px;
 }
+#town-water {
+  background: transparent;
+}
+#town-water .container-fluid {
+  padding: 0;
+}
+#town-water .town-text {
+  width: 100%;
+  color: #fff;
+  background: #0D101B;
+  padding: 40px 0 60px;
+}
+#town-water h2 {
+  border-radius: 50%;
+  background: #fff;
+  margin: 0 auto;
+  width: 220px;
+  height: 120px;
+  padding-top: 20px;
+  padding-left: 10px;
+  margin-bottom: 20px;
+}
+#town-water .logo {
+  display: block;
+  vertical-align: middle;
+  width: 200px;
+  height: auto;
+}
+#town-water p {
+  text-align: center;
+  float: left;
+  font-size: 25px;
+  margin: 0;
+}
+#town-water img {
+  width: 100%;
+  height: auto;
+}
 body#mainPage {
   background: none;
   padding: 0;

@@ -144,6 +144,16 @@ get_header('landing'); ?>
 			</section>
 			<!-- END NUMBERS -->
 
+			<!-- TOWN-WATER -->
+			<section id="town-water">
+			  <div class="container-fluid"><img src="<?php echo( get_template_directory_uri() . '/img/town2.png'); ?>" alt="Английский язык в Одессе"></div>
+			  <div class="town-text">
+			    <h2><img class="logo" src="<?php echo ( get_template_directory_uri() . '/img/logo.png'); ?>" alt="курсы английского языка - Одесса"></h2>
+			    <p class="col-xs-12">Профессиональные репетиторы, индивидуальный подход</p>
+			  </div>
+			</section>
+			<!-- END TOWN-WATER -->
+
 		</main><!-- #main -->
 	</div><!-- #primary -->
 
