@@ -10,16 +10,31 @@
  */
 
 ?>
+	<!-- FOOTER -->
+
+		<!-- EMPTY -->
+		<div id="empty" class="container-fluid"></div>
+		<!-- END EMPTY -->
 
 	</div><!-- #content -->
 
-	<footer id="colophon" class="site-footer" role="contentinfo">
-		<div class="site-info">
-			<a href="<?php echo esc_url( __( 'https://wordpress.org/', 'englishdeutsch' ) ); ?>"><?php printf( esc_html__( 'Proudly powered by %s', 'englishdeutsch' ), 'WordPress' ); ?></a>
-			<span class="sep"> | </span>
-			<?php printf( esc_html__( 'Theme: %1$s by %2$s.', 'englishdeutsch' ), 'englishdeutsch', '<a href="http://underscores.me/" rel="designer">Underscores.me</a>' ); ?>
-		</div><!-- .site-info -->
-	</footer><!-- #colophon -->
+	<footer id="footer">
+	  <div class="container">
+	    <h2>Контакты</h2>
+	    <div class="col-xs-12 contacts">
+	      <!-- <a href="tel:+380677152931">+38 (067) 715 29 31</a>
+	      <br> -->
+	      <a href="tel:+380635136295">Тел: +38 (063) 513 62 95</a>
+	      <br><br>
+	      <a href="#">Skype: englishdeutschcourses</a>
+	      <br><br>
+	      <a href="#">Email: englishdeutschcourses@gmail.com</a>
+	      <br><br>
+	    </div>
+	  </div>
+	</footer>
+	<!-- END FOOTER -->
+	
 </div><!-- #page -->
 
 <?php wp_footer(); ?>

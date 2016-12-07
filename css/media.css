@@ -373,4 +373,19 @@
   #map .contact .feedbackform input {
     font-size: 1.2em;
   }
+  #empty {
+    height: 200px;
+  }
+  footer {
+    text-align: center;
+  }
+  footer h2 {
+    margin-left: 0;
+  }
+  footer a {
+    margin-left: 0;
+  }
+  footer .contacts {
+    width: 100%;
+  }
 }
