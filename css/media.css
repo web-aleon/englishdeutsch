@@ -50,11 +50,48 @@
   #titlescreen .titlescreen .titleimage {
     height: 320px;
   }
-  section#numbers p.number {
+  #numbers p.number {
     font-size: 60px;
+  }
+  #lessons .hexagon {
+    width: 750px;
+  }
+  #lessons .hexagon .row1,
+  #lessons .hexagon .row2,
+  #lessons .hexagon .row3 {
+    width: 100%;
+    height: 182px;
+  }
+  #lessons .hexagon .row2,
+  #lessons .hexagon .row3 {
+    margin-top: -9px;
+  }
+  #lessons .hexagon .hex {
+    width: 137px;
+    height: 78px;
+  }
+  #lessons .hexagon .odd {
+    margin-top: 90px;
+  }
+  #lessons .hexagon .hex.hex-gap {
+    margin-left: 32px;
+  }
+  #lessons .hexagon p {
+    font-size: 14px;
+  }
+  #answer-callback input {
+    width: 30%;
+  }
+  #answer-callback button {
+    width: 20%;
   }
 }
 @media (max-width: 767px) {
+  .english-page {
+    background: url('../img/background_lessons_mobile.jpg') no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+  }
   header nav.navbar {
     border-top: none;
     border-bottom: 1px solid #FFE94A;
@@ -132,5 +169,77 @@
   }
   #town-water p {
     font-size: 16px;
+  }
+  #lessons .bg-transparent {
+    padding-bottom: 0px;
+    padding-right: 0;
+  }
+  #lessons h2 {
+    margin-bottom: 10px;
+    font-size: 1.7em;
+  }
+  #lessons .hexagon {
+    width: 320px;
+    float: none;
+    padding-bottom: 0;
+  }
+  #lessons .hexagon .row1,
+  #lessons .hexagon .row2,
+  #lessons .hexagon .row3 {
+    float: none;
+    width: 300px;
+  }
+  #lessons .hexagon .row2,
+  #lessons .hexagon .row3 {
+    margin-top: 0px;
+  }
+  #lessons .hexagon .row1 {
+    margin: 0 auto;
+    height: 250px;
+  }
+  #lessons .hexagon .row2 {
+    height: 800px;
+    margin: 150px auto 0;
+  }
+  #lessons .hexagon .hex {
+    width: 150px;
+    height: 86px;
+    float: none;
+    margin-top: 0;
+    margin-left: 70px;
+  }
+  #lessons .hexagon .odd {
+    margin-top: 0;
+  }
+  #lessons .hexagon .hex.hex-gap {
+    margin-left: 0;
+  }
+  #lessons .hexagon p {
+    font-size: 16px;
+  }
+  #lessons .hexagon .children,
+  #lessons .hexagon .shipping,
+  #lessons .hexagon .skype,
+  #lessons .hexagon .native,
+  #lessons .hexagon .speaking {
+    margin-top: 70px;
+  }
+  #answer-callback {
+    padding-bottom: 20px;
+  }
+  #answer-callback h2 {
+    font-size: 1.5em;
+  }
+  #answer-callback input {
+    display: block;
+    width: 80%;
+    font-size: 1em;
+    font-weight: normal;
+    margin: 10px auto;
+  }
+  #answer-callback button {
+    display: block;
+    width: 40%;
+    margin: 20px auto 0;
   }
 }

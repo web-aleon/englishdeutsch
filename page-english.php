@@ -154,6 +154,117 @@ get_header('landing'); ?>
 			</section>
 			<!-- END TOWN-WATER -->
 
+			<!-- LESSONS -->
+			<section id="lessons">
+			  <div class="container-fluid bg-transparent">
+			    <h2>Наши <span>основные</span> программы</h2>
+			    <div class="container no-padd hexagon">
+			      <div class="row1">
+			        <div class="hex hex-3 empty">
+			          <div class="inner">
+			          </div>
+			          <a href="#"></a>
+			          <div class="corner-1"></div>
+			          <div class="corner-2"></div>
+			        </div>
+			        <div class="hex hex-2 odd standart">
+			          <div class="inner">
+			            <p>Стандартный <br><span>курс</span></p>
+			          </div>
+			          <a class="scrollto lestoslide" href="#answer-callback" data-class="0"></a>
+			          <div class="corner-1"></div>
+			          <div class="corner-2"></div>
+			        </div>
+			        <div class="hex hex-1 children">
+			          <div class="inner">
+			            <p>Английский <br><span>для детей</span></p>
+			          </div>
+			          <a class="scrollto lestoslide" href="#answer-callback" data-class="1"></a>
+			          <div class="corner-1"></div>
+			          <div class="corner-2"></div>
+			        </div>
+			        <div class="hex hex-3 odd empty">
+			          <div class="inner">
+			          </div>
+			          <a href="#"></a>
+			          <div class="corner-1"></div>
+			          <div class="corner-2"></div>
+			        </div>
+			        <div class="hex hex-1  empty">
+			          <div class="inner">
+			          </div>
+			          <a href="#"></a>
+			          <div class="corner-1"></div>
+			          <div class="corner-2"></div>
+			        </div>
+			      </div>
+			    <!-- ROW 2 -->
+			      <div class="row2">
+			        <div class="hex hex-3 intensive">
+			          <div class="inner">
+			            <p>Интенсив</p>
+			          </div>
+			          <a class="scrollto lestoslide" href="#answer-callback" data-class="2"></a>
+			          <div class="corner-1"></div>
+			          <div class="corner-2"></div>
+			        </div>
+			        <div class="hex hex-2 odd shipping">
+			          <div class="inner">
+			            <p>Морской <br><span>английский</span></p>
+			          </div>
+			          <a class="scrollto lestoslide" href="#answer-callback" data-class="3"></a>
+			          <div class="corner-1"></div>
+			          <div class="corner-2"></div>
+			        </div>
+			        <div class="hex hex-1 skype">
+			          <div class="inner">
+			            <p>Уроки <br><span>по Skype</span></p>
+			          </div>
+			          <a class="scrollto lestoslide" href="#answer-callback" data-class="6"></a>
+			          <div class="corner-1"></div>
+			          <div class="corner-2"></div>
+			        </div>
+			        <div class="hex hex-3 odd native">
+			          <div class="inner">
+			            <p>Занятие <br><span>с носителем языка</span></p>
+			          </div>
+			          <a class="scrollto lestoslide" href="#answer-callback" data-class="4"></a>
+			          <div class="corner-1"></div>
+			          <div class="corner-2"></div>
+			        </div>
+			        <div class="hex hex-1 speaking">
+			          <div class="inner">
+			            <p>Speaking <span>and</span> <br>movie <span>club</span></p>
+			          </div>
+			          <a class="scrollto lestoslide" href="#answer-callback" data-class="5"></a>
+			          <div class="corner-1"></div>
+			          <div class="corner-2"></div>
+			        </div>
+			      </div>
+			    </div>
+			  </div>
+			</section>
+			<!-- END LESSONS -->
+
+			<div class="container-fluid empty-water"></div>
+
+			<!-- ANSWER CALLBACK -->
+			<section id="answer-callback" class="container-fluid">
+			  <div class="container">
+			    <h2><span>Заказать</span> бесплатный урок</h2>
+			    <form id="answerCallback">
+			      <input class="col-md-offset-2 col-sm-offset-1 col-sm-4" type="text" name="name" placeholder="Имя" required>
+			      <input class="col-sm-4" type="text" name="phone" placeholder="Телефон" required>
+			      <button class="col-sm-2">Заказать</button>
+			    </form>
+			  </div> 
+			</section>
+			<!-- END ANSWER CALLBACK -->
+
+			<div class="container-fluid empty-water"></div>
+
+
+
 		</main><!-- #main -->
 	</div><!-- #primary -->
 

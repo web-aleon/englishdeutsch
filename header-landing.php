@@ -73,5 +73,18 @@
 
 	</header>
 <!-- END HEADER -->
-	
+
+<!--стрелка возврата наверх-->
+
+  <a class="scrollto" href="#htmltop" title="Наверх"><div class="nav-to-top"></div></a>
+
+<!--END стрелка возврата наверх-->
+
+<!-- Всплывающее окно отправленной формы -->
+
+  <div id="thanksYou" class="thank-for-form">
+    Спасибо, мы с вами свяжемся!
+  </div>
+
+<!-- END Всплывающее окно отправленной формы -->
 	<div id="content" class="site-content">
