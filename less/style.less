@@ -1,0 +1,117 @@
+// VARIABLE
+@yellow: #FFE94A;
+@purple: #2D004E;
+@gray: #444444;
+@white: #fff;
+@black: #000;
+@red: #FE0000;
+// END VARIABLE
+// #primary, #wpadminbar{
+// 	display: none;
+// }
+// COMMON
+@media (max-width: 1199px){
+	
+}
+@media (max-width: 991px){
+	
+}
+@media (max-width: 767px){
+	
+}
+body{
+	font-family: 'Roboto', sans-serif;
+	font-size: 14px;
+}
+button:hover,
+button:focus, 
+input[type="button"]:focus, 
+input[type="reset"]:focus, 
+input[type="submit"]:focus, 
+button:active, 
+input[type="button"]:active, 
+input[type="reset"]:active, 
+input[type="submit"]:active
+{
+	box-shadow: none;
+	border-color: none;
+}
+// HEADER
+header{
+	background: @white;
+	position: fixed;
+	top: 0;
+	float: left;
+	width: 100%;
+	z-index: 9999;
+
+
+	.head-contacts{
+		background-color: @yellow;
+		height: 28px;
+	}
+	.mobile{
+		float:right;
+		color: @gray;
+		font-weight: bold;
+		line-height: 2em;
+	}
+	.mobile:hover, .mobile:active{
+		text-decoration: none;
+	}
+	.custom-logo-link{
+			height: auto;
+			text-align: center;
+			padding: 0 0 0 15px;
+			float: left;
+
+			.custom-logo{
+				height: 70px;
+				width: auto;
+			}
+		}
+	nav.navbar{
+		background: none;
+		border: none;
+		margin-bottom: 0;
+		padding: 0;
+		background: @white;
+		float: left;
+		width: 100%;
+		
+		li{
+			a{
+				padding-top: 25px;
+				padding-bottom: 25px;
+				font-size: 1.2em;
+			}
+		}
+		ul#primary-menu{
+			li{
+				a{
+					color: @gray;
+				}
+
+				&:first-child{
+					
+					a{
+						padding-left: 35px;
+					}
+				}
+			}
+		}
+		ul#anchorMenu{
+			li{
+				a{
+					color: @gray;
+				}
+			}
+		}
+		li:hover{
+			background: lighten(@gray, 70%);
+		}
+		
+	}
+
+}
+// END HEADER

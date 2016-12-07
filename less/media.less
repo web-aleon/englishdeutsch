@@ -1,0 +1,98 @@
+// VARIABLE
+@yellow: #FFE94A;
+@purple: #2D004E;
+@gray: #444444;
+@white: #fff;
+@black: #000;
+@red: #FE0000;
+// END VARIABLE
+
+
+// MEDIA
+
+@media (max-width: 1199px){
+	
+	// HEADER
+	header{
+
+		nav.navbar{
+
+			li{
+				a{
+					font-size: 1.1em;
+				}
+			}
+		}
+	}
+
+}
+
+@media (max-width: 991px){
+	
+	// HEADER
+	header{
+		
+		.custom-logo-link{
+			display: block;
+			width: 100%;
+			text-align: center;
+			padding: 0;
+			padding-bottom: 10px;
+			border-bottom: 1px solid @yellow;
+		}
+		nav.navbar{ 
+			width: 100%;
+
+			li{
+				a{
+					font-size: 1.1em;
+				}
+			}
+
+			ul#primary-menu{
+				li{
+					
+					&:first-child{
+						
+						a{
+							padding-left: 15px;
+						}
+					}
+				}
+			}
+		}
+	}
+
+}
+
+@media (max-width: 767px){
+	
+	// HEADER
+	header{
+		
+		nav.navbar{ 
+			border-top: none;
+			border-bottom: 1px solid @yellow;
+			text-align: center;
+
+
+			.navbar-toggle{
+				position: absolute;
+				top: 20px;
+				right: 20px;
+				margin: 0;
+			}
+			li{
+				a{
+					font-size: 1.2em;
+					padding-top: 5px;
+					padding-bottom: 10px;
+				}
+			}
+			ul#primary-menu{
+				border-bottom: 1px solid @yellow;
+			}
+		}
+	}
+
+}

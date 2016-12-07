@@ -1,0 +1,74 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+}
+button:hover,
+button:focus,
+input[type="button"]:focus,
+input[type="reset"]:focus,
+input[type="submit"]:focus,
+button:active,
+input[type="button"]:active,
+input[type="reset"]:active,
+input[type="submit"]:active {
+  box-shadow: none;
+  border-color: none;
+}
+header {
+  background: #fff;
+  position: fixed;
+  top: 0;
+  float: left;
+  width: 100%;
+  z-index: 9999;
+}
+header .head-contacts {
+  background-color: #FFE94A;
+  height: 28px;
+}
+header .mobile {
+  float: right;
+  color: #444444;
+  font-weight: bold;
+  line-height: 2em;
+}
+header .mobile:hover,
+header .mobile:active {
+  text-decoration: none;
+}
+header .custom-logo-link {
+  height: auto;
+  text-align: center;
+  padding: 0 0 0 15px;
+  float: left;
+}
+header .custom-logo-link .custom-logo {
+  height: 70px;
+  width: auto;
+}
+header nav.navbar {
+  background: none;
+  border: none;
+  margin-bottom: 0;
+  padding: 0;
+  background: #fff;
+  float: left;
+  width: 100%;
+}
+header nav.navbar li a {
+  padding-top: 25px;
+  padding-bottom: 25px;
+  font-size: 1.2em;
+}
+header nav.navbar ul#primary-menu li a {
+  color: #444444;
+}
+header nav.navbar ul#primary-menu li:first-child a {
+  padding-left: 35px;
+}
+header nav.navbar ul#anchorMenu li a {
+  color: #444444;
+}
+header nav.navbar li:hover {
+  background: #f6f6f6;
+}

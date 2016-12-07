@@ -1,0 +1,45 @@
+@media (max-width: 1199px) {
+  header nav.navbar li a {
+    font-size: 1.1em;
+  }
+}
+@media (max-width: 991px) {
+  header .custom-logo-link {
+    display: block;
+    width: 100%;
+    text-align: center;
+    padding: 0;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #FFE94A;
+  }
+  header nav.navbar {
+    width: 100%;
+  }
+  header nav.navbar li a {
+    font-size: 1.1em;
+  }
+  header nav.navbar ul#primary-menu li:first-child a {
+    padding-left: 15px;
+  }
+}
+@media (max-width: 767px) {
+  header nav.navbar {
+    border-top: none;
+    border-bottom: 1px solid #FFE94A;
+    text-align: center;
+  }
+  header nav.navbar .navbar-toggle {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    margin: 0;
+  }
+  header nav.navbar li a {
+    font-size: 1.2em;
+    padding-top: 5px;
+    padding-bottom: 10px;
+  }
+  header nav.navbar ul#primary-menu {
+    border-bottom: 1px solid #FFE94A;
+  }
+}
