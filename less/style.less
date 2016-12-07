@@ -666,6 +666,240 @@ header{
 }
 // END ANSWER CALLBACK
 
+
+
+// ALL LESSONS
+
+	// SLIDER STYLE
+#lesson_carousel{
+	
+	a.carousel-control,
+	a.carousel-control:hover,
+	a.carousel-control:focus,
+	a.carousel-control:active{
+		background: none;
+	}
+	a.carousel-control:visited{
+		color: #fff;
+	}
+}
+.all-lessons{
+	min-height: 450px;
+	padding-bottom: 40px;
+
+	h2{
+		margin-top: 50px;
+	}
+	p{
+		margin:0;
+
+		span{
+			font-weight: bold;
+		}
+	}
+	br{
+		display: none;
+	}
+	.lessoninfo{
+		padding: 25px 0;
+		height: 150px;
+		border-bottom: 1px solid @gray;
+		margin-bottom: 30px;
+		vertical-align: middle;
+	}
+	.indiv{	
+		padding: 0 25px;
+	}
+	p.description{
+		padding-left: 0;
+	}
+	.description{
+		min-height: 90px;
+		border-right: 1px solid @gray;
+		padding-top: 10px;
+	}
+	ul.description{
+		margin: 0;
+	}
+	p.description, .lessons-by-week{
+		padding-top: 10px;
+	}
+	.lessons-by-week{
+		font-weight: 300;
+	}
+	.text-right{
+		padding-left: 5%;
+	}
+	.text-left{
+		padding-right: 5%;
+	}
+	.price{
+		font-size: 3em;
+		font-weight: normal;
+		text-align: left;
+		margin-top: 15px;
+		margin-bottom: 25px;
+
+		span{
+			font-size: 0.5em;
+		}
+	}
+	button{
+		height: 40px;
+		background: @white;
+		border: 2px solid black;
+		border-radius: 5px;
+		text-transform: uppercase;
+		color: @black;
+	}
+	button:hover{
+		background: darken(@white, 20%);
+	}
+}
+	// STANDART
+#standart{
+	background: @purple;
+
+	.lessoninfo, .description{
+		border-color: @white;
+	}
+	h2, p, button{
+		color: @white;
+	}
+	button{
+		background: @purple;
+		border: 2px solid lighten(@purple, 20%);
+	}
+	button:hover{
+		background: lighten(@purple, 20%);
+	}
+
+	.image{
+		height: 450px;
+		background: url('../img/standart-img.png') no-repeat;
+		background-size: 100%;
+		background-position: 50% 50%;
+	}
+}
+	// END STANDART
+	// CHILDREN
+#children{
+	background: @white;
+	
+	.image{
+		height: 450px;
+		background: url('../img/children_img.jpg') no-repeat;
+		background-size: auto 100%;
+		background-position: 50% 50%;
+	}
+}
+	// END CHILDREN
+	// INTENSIVE
+#intensive{
+	background: @gray;
+	.lessoninfo, .description{
+		border-color: @white;
+	}
+	h2, p, button{
+		color: @white;
+	}
+	button{
+		background: @gray;
+		border: 2px solid lighten(@gray, 20%);
+	}
+	button:hover{
+		background: lighten(@gray, 20%);
+	}
+
+	.image{
+		height: 450px;
+		background: url('../img/intensive_img.png') no-repeat;
+		background-size: auto 100%;
+		background-position: 50% 50%;
+	}
+}
+	// END INTENSIVE
+	// SHIPPING
+#shipping{
+	background: @yellow;
+	button{
+		background: @yellow;
+		border: 2px solid lighten(black, 20%);
+	}
+	button:hover{
+		background: lighten(@yellow, 20%);
+	}
+
+	.image{
+		height: 450px;
+		background: url('../img/shipping_img.png') no-repeat;
+		background-size: 100%;
+		background-position: 50% 50%;
+	}
+}
+	// END SHIPPING
+	// NATIVE
+#native{
+	background: @white;
+
+	.description{
+		border: none;
+	}
+
+	.image{
+		height: 450px;
+		background: url('../img/native-img.jpg') no-repeat;
+		background-size: auto 100%;
+		background-position: 50% 50%;
+	}
+}
+	// END NATIVE
+	// SPEAKING CLUB
+#speaking-club{
+	background: @black;
+	.lessoninfo, .description{
+		border-color: @yellow;
+	}
+	.description{
+		border: none;
+	}
+	h2, p, button, li{
+		color: @yellow;
+	}
+	button{
+		background: @black;
+		border: 2px solid lighten(@black, 20%);
+	}
+	button:hover{
+		background: lighten(@black, 20%);
+	}
+
+	.image{
+		height: 450px;
+		background: url('../img/speaking-club-img.png') no-repeat;
+		background-size: auto 100%;
+		background-position: 50% 50%;
+	}
+}
+	// END SPEAKING CLUB
+	// SKYPE
+#skype{
+	background: @white;
+
+	.description{
+		border: none;
+	}
+	.image{
+		height: 450px;
+		background: url('../img/skype-img.png') no-repeat;
+		background-size: auto 70%;
+		background-position: 50% 50%;
+	}
+}
+	// END SKYPE
+
+// END ALL LESSONS
+
 // ----------------------------------------------------------------------------------------------
 
 // MAIN PAGE

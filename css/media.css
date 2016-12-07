@@ -11,6 +11,21 @@
   #titlescreen .titlescreen .titleimage {
     height: 370px;
   }
+  .all-lessons br {
+    display: inline;
+  }
+  .all-lessons .lessoninfo {
+    height: 165px;
+    margin-bottom: 20px;
+  }
+  .all-lessons .indiv {
+    padding: 0;
+    text-align: center;
+    font-size: 0.9em;
+  }
+  .all-lessons button {
+    font-size: 0.9em;
+  }
 }
 @media (max-width: 991px) {
   header .custom-logo-link {
@@ -84,6 +99,37 @@
   }
   #answer-callback button {
     width: 20%;
+  }
+  .all-lessons h2 {
+    margin-top: 20px;
+  }
+  .all-lessons .indiv {
+    font-size: 0.8em;
+  }
+  .all-lessons .description {
+    font-size: 0.9em;
+  }
+  .all-lessons .description li {
+    margin-bottom: 3px;
+    padding-right: 5px;
+  }
+  .all-lessons p.description,
+  .all-lessons .lessons-by-week {
+    font-size: 0.9em;
+  }
+  .all-lessons .lessons-by-week {
+    padding-right: 0;
+  }
+  .all-lessons .text-right {
+    padding-left: 2%;
+    padding-right: 0;
+  }
+  .all-lessons .text-left {
+    padding-right: 2%;
+    padding-left: 0;
+  }
+  .all-lessons button {
+    font-size: 0.8em;
   }
 }
 @media (max-width: 767px) {
@@ -241,5 +287,52 @@
     display: block;
     width: 40%;
     margin: 20px auto 0;
+  }
+  .all-lessons {
+    min-height: 540px;
+  }
+  .all-lessons br {
+    display: inline;
+  }
+  .all-lessons .lessoninfo {
+    border-bottom: none;
+  }
+  .all-lessons .description {
+    border-right: none;
+    font-size: 1.2em;
+  }
+  .all-lessons .description li {
+    text-align: left;
+  }
+  .all-lessons p.description,
+  .all-lessons .lessons-by-week {
+    font-size: 1.2em;
+    padding: 0;
+  }
+  .all-lessons .lessons-by-week {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 1.1em;
+  }
+  .all-lessons .text-right {
+    padding: 0;
+  }
+  .all-lessons .text-left {
+    padding: 0;
+  }
+  .all-lessons .price {
+    font-size: 2.2em;
+    padding: 0;
+    width: 100%;
+  }
+  .all-lessons button {
+    width: 160px;
+    margin: 0 25% 15px;
+  }
+  .all-lessons .image {
+    display: none;
+  }
+  #native .lessoninfo {
+    height: 100px;
   }
 }

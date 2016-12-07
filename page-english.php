@@ -263,8 +263,195 @@ get_header('landing'); ?>
 
 			<div class="container-fluid empty-water"></div>
 
+			<!-- ALL LESSONS SLIDER-->
+			<section id="lesson_carousel">
+			  <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+			    <!-- Indicators -->
+			    <ol class="carousel-indicators">
+			      <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+			      <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+			      <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+			      <li data-target="#carousel-example-generic" data-slide-to="3"></li>
+			      <li data-target="#carousel-example-generic" data-slide-to="4"></li>
+			      <li data-target="#carousel-example-generic" data-slide-to="5"></li>
+			      <li data-target="#carousel-example-generic" data-slide-to="6"></li>
+			    </ol>
 
+			    <!-- Wrapper for slides -->
+			    <div class="carousel-inner" role="listbox">
+			      <div class="item active">
+			        <article id="standart" class="container-fluid all-lessons">
+			          <div class="container mobile-bg">
+			            <div class="col-sm-6 col-xs-12 text-left">
+			              <h2><span>Стандартный</span> курс</h2>
+			              <div class="container-fluid lessoninfo">
+			                <p class="col-sm-6 col-xs-12 description">
+			                <span>Полный курс включает:</span> грамматика, лексика, чтение, письмо, общение.
+			                </p>
+			                <p class="col-sm-6 col-xs-12 lessons-by-week"><span>2-3 раза</span> в неделю. <span>Продолжительность:</span> <br>6 месяцев.</p>
+			                <p class="col-lg-6 col-xs-12 indiv">( Расписание составляется индивидуально для каждого )</p>
+			              </div>
+			              <p class="col-sm-12 col-xs-7 price">150 <span>грн</span> / 60 <span>мин</span></p>
+			              <a class="scrollto" href="#map"><button class="col-md-5 col-sm-6 col-xs-3">Узнать подробнее</button></a>
+			            </div>
 
+			            <div class="col-sm-6 image">
+			            </div>
+			          </div>
+			        </article>
+			      </div>
+
+			      <div class="item">
+			        <article id="children" class="container-fluid all-lessons">
+			          <div class="container">
+			            <div class="col-sm-6 image">
+			            </div>
+
+			            <div class="col-sm-6 col-xs-12">
+			              <h2 class="text-right"><span>Английский</span> для детей</h2>
+			              <div class="container-fluid lessoninfo">
+			                <ul class="col-md-6 col-sm-8 col-xs-12 description  text-right">
+			                  <li>Выполнение домашних заданий</li>
+			                  <li>Подготовка к экзаменам</li>
+			                  <li>Занятия проходят в игровой форме</li>
+			                </ul>
+			                <p class="col-md-6 col-sm-4 col-xs-12 lessons-by-week"><span>2-3 раза</span> в неделю</p>
+			                <p class="col-lg-6 col-xs-12 indiv">( Расписание составляется индивидуально для каждого )</p>
+			              </div>
+			              <p class="col-sm-12 col-xs-7 price">150 <span>грн</span> / 60 <span>мин</span></p>
+			              <a class="scrollto" href="#map"><button class="col-md-5 col-sm-6 col-xs-3">Узнать подробнее</button></a>
+			            </div>
+			          </div>
+			        </article>
+			      </div>
+			      
+			      <div class="item">
+			        <article id="intensive" class="container-fluid all-lessons">
+			          <div class="container">  
+			            <div class="col-sm-6 col-xs-12 text-left">
+			              <h2>Интенсив</h2>
+			              <div class="container-fluid lessoninfo">
+			                <p class="col-sm-6 col-xs-12 description">
+			                Включает в себя полный "Стандартный курс" за 2 месяца
+			                </p>
+			                <p class="col-sm-6 col-xs-12 lessons-by-week"><span>3 раза</span> в неделю. <span>Продолжительность:</span> <br>2 месяца.</p>
+			                <p class="col-lg-6 col-xs-12 indiv">( Расписание составляется индивидуально для каждого )</p>
+			              </div>
+			              <p class="col-sm-12 col-xs-7 price">250 <span>грн</span> / 120 <span>мин</span></p>
+			              <a class="scrollto" href="#map"><button class="col-md-5 col-sm-6 col-xs-3">Узнать подробнее</button></a>
+			            </div>
+
+			            <div class="col-sm-6 image">
+			            </div>
+			          </div>
+			        </article>
+			      </div>
+
+			      <div class="item">
+			        <article id="shipping" class="container-fluid all-lessons">
+			          <div class="container">
+			            <div class="col-sm-6 image">
+			            </div>
+
+			            <div class="col-sm-6 col-xs-12">
+			              <h2 class="text-right"><span>Морской</span> английский</h2>
+			              <div class="container-fluid lessoninfo">
+			                <ul class="col-md-6 col-sm-7 col-xs-12 description  text-right">
+			                  <li>изучение терминологии</li>
+			                  <li>грамматика</li>
+			                  <li>разговорные навыки</li>
+			                  <li>подготовка к собеседованию</li>
+			                </ul>
+			                <p class="col-md-6 col-sm-5 col-xs-12 lessons-by-week"><span>3 раза</span> в неделю. <span>Продолжительность:</span> <br>2 месяца.</p>
+			                <p class="col-lg-6 col-xs-12 indiv">( Расписание составляется индивидуально для каждого )</p>
+			              </div>
+			              <p class="col-sm-12 col-xs-7 price">250 <span>грн</span> / 120 <span>мин</span></p>
+			              <a class="scrollto" href="#map"><button class="col-md-5 col-sm-6 col-xs-3">Узнать подробнее</button></a>
+			            </div>
+			          </div>
+			        </article>
+			      </div>
+
+			      <div class="item">
+			        <article id="native" class="container-fluid all-lessons">
+			          <div class="container">  
+			            <div class="col-sm-6 col-xs-12 text-left">
+			              <h2><span>Занятие</span> с носителем языка</h2>
+			              <div class="container-fluid lessoninfo">
+			                <ul class="col-sm-12 col-xs-12 description">
+			                  <li>разговорная практика</li>
+			                  <li>преодоление языкового барьера</li>
+			                </ul>
+			              </div>
+			              <p class="col-sm-12 col-xs-7 price">300 <span>грн</span> / 120 <span>мин</span></p>
+			              <a class="scrollto" href="#map"><button class="col-md-5 col-sm-6 col-xs-3">Узнать подробнее</button></a>
+			            </div>
+
+			            <div class="col-sm-6 image">
+			            </div>
+			          </div>
+			        </article>
+			      </div>
+
+			      <div class="item">
+			        <article id="speaking-club" class="container-fluid all-lessons">
+			          <div class="container">
+			            <div class="col-sm-6 image">
+			            </div>
+
+			            <div class="col-sm-6 col-xs-12 text-right">
+			              <h2><span>Speaking</span> and <span>movie</span> club</h2>
+			              <div class="container-fluid lessoninfo">
+			                <ul class="col-sm-12 col-xs-12 description">
+			                  <li>обсуждение актуальных вопросов, статей</li>
+			                  <li>просмотр фильмов на иностранных языках и их обсуждение</li>
+			                  <li>преодоление языкового барьера</li>
+			                </ul>
+			              </div>
+			              <p class="col-sm-12 col-xs-7 price">70 <span>грн</span> / 60 <span>мин</span></p>
+			              <a class="scrollto" href="#map"><button class="col-md-5 col-sm-6 col-xs-3">Узнать подробнее</button></a>
+			            </div>
+			          </div>
+			        </article>
+			      </div>
+
+			      <div class="item">
+			        <article id="skype" class="container-fluid all-lessons">
+			          <div class="container">  
+			            <div class="col-sm-6 col-xs-12 text-left">
+			              <h2><span>Занятие</span> по Skype</h2>
+			              <div class="container-fluid lessoninfo">
+			                <p class="col-sm-12 col-xs-12 description">
+			                  Занятия по Скайпу - это индивидуальные занятия дома в удобное для вас время. Уроки английского языка онлайн - хороший способ повысить свой уровень английского, а так же приобрести разговорные навыки и практику.
+			                </p>
+			              </div>
+			              <p class="col-sm-12 col-xs-7 price">150 <span>грн</span> / 60 <span>мин</span></p>
+			              <a class="scrollto" href="#map"><button class="col-md-5 col-sm-6 col-xs-3">Узнать подробнее</button></a>
+			            </div>
+
+			            <div class="col-sm-6 image">
+			            </div>
+			          </div>
+			        </article>
+			      </div>
+
+			    </div>
+
+			    <!-- Controls -->
+			    <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+			      <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+			      <span class="sr-only">Previous</span>
+			    </a>
+			    <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+			      <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+			      <span class="sr-only">Next</span>
+			    </a>
+			  </div>
+			</section>
+
+			<!-- END ALL LESSONS SLIDER -->
+
+			       
 		</main><!-- #main -->
 	</div><!-- #primary -->
 

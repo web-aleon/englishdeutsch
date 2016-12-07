@@ -560,6 +560,214 @@ header nav.navbar li:hover {
 #answer-callback button:hover {
   background: #e3c700;
 }
+#lesson_carousel a.carousel-control,
+#lesson_carousel a.carousel-control:hover,
+#lesson_carousel a.carousel-control:focus,
+#lesson_carousel a.carousel-control:active {
+  background: none;
+}
+#lesson_carousel a.carousel-control:visited {
+  color: #fff;
+}
+.all-lessons {
+  min-height: 450px;
+  padding-bottom: 40px;
+}
+.all-lessons h2 {
+  margin-top: 50px;
+}
+.all-lessons p {
+  margin: 0;
+}
+.all-lessons p span {
+  font-weight: bold;
+}
+.all-lessons br {
+  display: none;
+}
+.all-lessons .lessoninfo {
+  padding: 25px 0;
+  height: 150px;
+  border-bottom: 1px solid #444444;
+  margin-bottom: 30px;
+  vertical-align: middle;
+}
+.all-lessons .indiv {
+  padding: 0 25px;
+}
+.all-lessons p.description {
+  padding-left: 0;
+}
+.all-lessons .description {
+  min-height: 90px;
+  border-right: 1px solid #444444;
+  padding-top: 10px;
+}
+.all-lessons ul.description {
+  margin: 0;
+}
+.all-lessons p.description,
+.all-lessons .lessons-by-week {
+  padding-top: 10px;
+}
+.all-lessons .lessons-by-week {
+  font-weight: 300;
+}
+.all-lessons .text-right {
+  padding-left: 5%;
+}
+.all-lessons .text-left {
+  padding-right: 5%;
+}
+.all-lessons .price {
+  font-size: 3em;
+  font-weight: normal;
+  text-align: left;
+  margin-top: 15px;
+  margin-bottom: 25px;
+}
+.all-lessons .price span {
+  font-size: 0.5em;
+}
+.all-lessons button {
+  height: 40px;
+  background: #fff;
+  border: 2px solid black;
+  border-radius: 5px;
+  text-transform: uppercase;
+  color: #000;
+}
+.all-lessons button:hover {
+  background: #cccccc;
+}
+#standart {
+  background: #2D004E;
+}
+#standart .lessoninfo,
+#standart .description {
+  border-color: #fff;
+}
+#standart h2,
+#standart p,
+#standart button {
+  color: #fff;
+}
+#standart button {
+  background: #2D004E;
+  border: 2px solid #6800b4;
+}
+#standart button:hover {
+  background: #6800b4;
+}
+#standart .image {
+  height: 450px;
+  background: url('../img/standart-img.png') no-repeat;
+  background-size: 100%;
+  background-position: 50% 50%;
+}
+#children {
+  background: #fff;
+}
+#children .image {
+  height: 450px;
+  background: url('../img/children_img.jpg') no-repeat;
+  background-size: auto 100%;
+  background-position: 50% 50%;
+}
+#intensive {
+  background: #444444;
+}
+#intensive .lessoninfo,
+#intensive .description {
+  border-color: #fff;
+}
+#intensive h2,
+#intensive p,
+#intensive button {
+  color: #fff;
+}
+#intensive button {
+  background: #444444;
+  border: 2px solid #777777;
+}
+#intensive button:hover {
+  background: #777777;
+}
+#intensive .image {
+  height: 450px;
+  background: url('../img/intensive_img.png') no-repeat;
+  background-size: auto 100%;
+  background-position: 50% 50%;
+}
+#shipping {
+  background: #FFE94A;
+}
+#shipping button {
+  background: #FFE94A;
+  border: 2px solid #333333;
+}
+#shipping button:hover {
+  background: #fff5b0;
+}
+#shipping .image {
+  height: 450px;
+  background: url('../img/shipping_img.png') no-repeat;
+  background-size: 100%;
+  background-position: 50% 50%;
+}
+#native {
+  background: #fff;
+}
+#native .description {
+  border: none;
+}
+#native .image {
+  height: 450px;
+  background: url('../img/native-img.jpg') no-repeat;
+  background-size: auto 100%;
+  background-position: 50% 50%;
+}
+#speaking-club {
+  background: #000;
+}
+#speaking-club .lessoninfo,
+#speaking-club .description {
+  border-color: #FFE94A;
+}
+#speaking-club .description {
+  border: none;
+}
+#speaking-club h2,
+#speaking-club p,
+#speaking-club button,
+#speaking-club li {
+  color: #FFE94A;
+}
+#speaking-club button {
+  background: #000;
+  border: 2px solid #333333;
+}
+#speaking-club button:hover {
+  background: #333333;
+}
+#speaking-club .image {
+  height: 450px;
+  background: url('../img/speaking-club-img.png') no-repeat;
+  background-size: auto 100%;
+  background-position: 50% 50%;
+}
+#skype {
+  background: #fff;
+}
+#skype .description {
+  border: none;
+}
+#skype .image {
+  height: 450px;
+  background: url('../img/skype-img.png') no-repeat;
+  background-size: auto 70%;
+  background-position: 50% 50%;
+}
 body#mainPage {
   background: none;
   padding: 0;
