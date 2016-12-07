@@ -1,3 +1,9 @@
+#wpadminbar {
+  display: none;
+}
+html#htmltop {
+  margin-top: 0 !important;
+}
 body {
   font-family: 'Roboto', sans-serif;
   font-size: 14px;
@@ -31,6 +37,14 @@ button {
   height: 100px;
   background: #fff;
 }
+.clear {
+  clear: both;
+  display: block;
+  overflow: hidden;
+  visibility: hidden;
+  width: 0;
+  height: 0;
+}
 button,
 button:hover,
 button:focus,
@@ -43,6 +57,62 @@ input[type="reset"]:active,
 input[type="submit"]:active {
   box-shadow: none;
   border-color: none;
+}
+.nav-to-top {
+  color: black;
+  display: inline-block;
+  position: fixed;
+  right: 50px;
+  bottom: 10px;
+  width: 50px;
+  height: 50px;
+  background: rgba(255, 255, 255, 0.3) url('../img/arrow.png') 50% 50% no-repeat;
+  background-size: auto 70%;
+  z-index: 100;
+  border-radius: 50%;
+}
+.nav-to-top:hover {
+  cursor: pointer;
+}
+.thank-for-form {
+  display: none;
+  position: fixed;
+  top: 50%;
+  left: 40%;
+  height: 100px;
+  width: 300px;
+  padding: 40px 20px;
+  font-size: 1.2em;
+  font-weight: bold;
+  background: rgba(255, 255, 255, 0.5);
+  z-index: 100;
+}
+.mini-message {
+  display: none;
+  position: fixed;
+  width: 220px;
+  height: 160px;
+  padding: 65px 45px;
+  text-align: center;
+  background: url('../img/cloud.png') 50% 50% no-repeat;
+  background-size: 100% auto;
+  z-index: 100;
+}
+.mess1 {
+  top: 75%;
+  left: 10px;
+}
+.mess2 {
+  top: 60%;
+  right: 10px;
+}
+.mess3 {
+  top: 65%;
+  left: 10px;
+}
+.mess4 {
+  top: 50%;
+  right: 10px;
 }
 header {
   background: #fff;
@@ -101,6 +171,38 @@ header nav.navbar ul#anchorMenu li a {
 }
 header nav.navbar li:hover {
   background: #f6f6f6;
+}
+#titlescreen {
+  margin-top: 98px;
+}
+#titlescreen .titlescreen {
+  height: 450px;
+  background: #FFE94A;
+  padding: 0;
+}
+#titlescreen .titlescreen h1 {
+  margin-top: 135px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #444444;
+  color: #444444;
+  font-weight: normal;
+  display: inline-block;
+}
+#titlescreen .titlescreen h3 {
+  color: #444444;
+}
+#titlescreen .titlescreen p {
+  color: #444444;
+  font-size: 1.3em;
+}
+#titlescreen .titlescreen .titleimage {
+  padding: 0;
+  height: 450px;
+  background: url('../img/head-bg.jpg') 50% 50% no-repeat;
+  background-size: cover;
+}
+#titlescreen .titlescreen img {
+  height: 100%;
 }
 body#mainPage {
   background: none;

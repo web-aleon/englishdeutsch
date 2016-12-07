@@ -2,6 +2,15 @@
   header nav.navbar li a {
     font-size: 1.1em;
   }
+  #titlescreen .titlescreen {
+    height: 370px;
+  }
+  #titlescreen .titlescreen h1 {
+    margin-top: 85px;
+  }
+  #titlescreen .titlescreen .titleimage {
+    height: 370px;
+  }
 }
 @media (max-width: 991px) {
   header .custom-logo-link {
@@ -17,9 +26,29 @@
   }
   header nav.navbar li a {
     font-size: 1.1em;
+    padding-left: 10px;
   }
   header nav.navbar ul#primary-menu li:first-child a {
     padding-left: 15px;
+  }
+  #titlescreen {
+    margin-top: 179px;
+  }
+  #titlescreen .titlescreen {
+    height: 320px;
+  }
+  #titlescreen .titlescreen h1 {
+    margin-top: 65px;
+    font-size: 2.2em;
+  }
+  #titlescreen .titlescreen h3 {
+    font-size: 1.5em;
+  }
+  #titlescreen .titlescreen p {
+    font-size: 1.2em;
+  }
+  #titlescreen .titlescreen .titleimage {
+    height: 320px;
   }
 }
 @media (max-width: 767px) {
@@ -41,5 +70,34 @@
   }
   header nav.navbar ul#primary-menu {
     border-bottom: 1px solid #FFE94A;
+  }
+  #titlescreen {
+    margin-top: 110px;
+  }
+  #titlescreen .titlescreen {
+    height: 250px;
+    text-align: center;
+    background: url('../img/head-bg.jpg') no-repeat;
+    background-size: 100% 100%;
+  }
+  #titlescreen .titlescreen h1 {
+    margin-top: 35px;
+    font-size: 2em;
+  }
+  #titlescreen .titlescreen h3 {
+    font-size: 1.3em;
+    margin-top: 0px;
+    margin-bottom: 20px;
+  }
+  #titlescreen .titlescreen p {
+    font-size: 1.1em;
+  }
+  #titlescreen .titlescreen .mobile-head-bg {
+    height: 250px;
+    background: #FFE94A;
+    opacity: 0.85;
+  }
+  #titlescreen .titlescreen .titleimage {
+    display: none;
   }
 }
