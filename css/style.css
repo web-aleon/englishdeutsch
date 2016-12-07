@@ -2,6 +2,36 @@ body {
   font-family: 'Roboto', sans-serif;
   font-size: 14px;
 }
+h2 {
+  text-transform: uppercase;
+  margin-top: 40px;
+  font-weight: 300;
+}
+@media (max-width: 500px) {
+  h2 {
+    margin-top: 20px;
+  }
+}
+h2 span {
+  font-weight: bold;
+}
+img {
+  width: 100%;
+  height: auto;
+}
+button {
+  transition-duration: 1s;
+}
+.no-padd {
+  padding: 0;
+}
+.empty-water {
+  padding-left: 0;
+  padding-right: 0;
+  height: 100px;
+  background: #fff;
+}
+button,
 button:hover,
 button:focus,
 input[type="button"]:focus,
@@ -71,4 +101,170 @@ header nav.navbar ul#anchorMenu li a {
 }
 header nav.navbar li:hover {
   background: #f6f6f6;
+}
+body#mainPage {
+  background: none;
+  padding: 0;
+}
+body#mainPage .tagline-block {
+  padding: 0;
+  height: 9%;
+  margin-top: 10%;
+}
+@media (max-width: 767px) {
+  body#mainPage .tagline-block {
+    margin-top: 1%;
+  }
+}
+body#mainPage .tagline-block .tagline {
+  display: none;
+  margin: 0;
+  margin-top: 1%;
+  padding: 2% 0;
+  color: #444444;
+  background: #fff;
+  font-family: 'Cuprum', sans-serif;
+  font-size: 2em;
+  font-weight: bold;
+  line-height: 1em;
+  text-transform: uppercase;
+  text-align: center;
+}
+@media (max-width: 767px) {
+  body#mainPage .tagline-block .tagline {
+    font-size: 1.1em;
+    display: block;
+  }
+}
+body#mainPage h2 {
+  margin-top: 16%;
+  line-height: 1.8em;
+}
+@media (max-width: 767px) {
+  body#mainPage h2 {
+    margin-top: 6%;
+    font-size: 1.5em;
+    line-height: 1.4em;
+  }
+}
+body#mainPage h3 {
+  display: none;
+  line-height: 1.4em;
+}
+@media (max-width: 767px) {
+  body#mainPage h3 {
+    font-size: 1.1em;
+    display: block;
+    margin-top: 10px;
+  }
+}
+body#mainPage span {
+  font-weight: bold;
+}
+body#mainPage button {
+  display: none;
+  width: 140px;
+  height: 40px;
+  margin-top: 60px;
+  border-radius: 5px;
+  text-transform: uppercase;
+  color: #fff;
+  border: none;
+  font-size: 1.1em;
+}
+@media (max-width: 767px) {
+  body#mainPage button {
+    display: inline-block;
+    width: 100px;
+    height: 35px;
+    margin-top: 5px;
+    font-size: 0.9em;
+  }
+}
+body#mainPage button:hover {
+  background: #ff6565;
+}
+body#mainPage .homepage {
+  padding: 0;
+}
+body#mainPage .left,
+body#mainPage .right {
+  height: 100vh;
+  padding: 0;
+  text-decoration: none;
+}
+@media (max-width: 767px) {
+  body#mainPage .left,
+  body#mainPage .right {
+    width: 100%;
+  }
+}
+body#mainPage .left:hover,
+body#mainPage .right:hover,
+body#mainPage .left:active,
+body#mainPage .right:active {
+  text-decoration: none;
+}
+body#mainPage .left {
+  text-align: right;
+  background: #FFE94A;
+  float: left;
+}
+@media (max-width: 767px) {
+  body#mainPage .left {
+    height: 55vh;
+  }
+}
+body#mainPage .left h2,
+body#mainPage .left h3 {
+  color: #444444;
+}
+body#mainPage .left button {
+  margin-right: 20px;
+  background: #2D004E;
+}
+body#mainPage .left .tagline {
+  color: #7700ce;
+}
+body#mainPage .right {
+  text-align: left;
+  float: right;
+  background: #444444;
+}
+@media (max-width: 767px) {
+  body#mainPage .right {
+    height: 45vh;
+  }
+}
+body#mainPage .right h2,
+body#mainPage .right h3 {
+  color: #fff;
+}
+body#mainPage .right button {
+  margin-left: 20px;
+  background: #FE0000;
+}
+@media (max-width: 767px) {
+  body#mainPage .right .tagline-block {
+    display: none;
+  }
+}
+body#mainPage .right .tagline {
+  color: #FE0000;
+}
+body#mainPage .picture {
+  display: none;
+  padding: 0;
+  background: none;
+  height: 100vh;
+}
+body#mainPage .picture img {
+  margin-top: 15%;
+  padding: 0;
+}
+@media (max-width: 1199px) {
+  body#mainPage .picture img {
+    position: relative;
+    top: 20%;
+  }
 }

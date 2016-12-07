@@ -113,7 +113,7 @@ function englishdeutsch_scripts() {
 	wp_enqueue_style( 'englishdeutsch-bootstrap', get_template_directory_uri() . '/css/bootstrap.min.css' );
 	
 	// fonts
-	// wp_enqueue_style( 'englishdeutsch-fonts-google', 'https://fonts.googleapis.com/css?family=Bad+Script|Proza+Libre:800i|Roboto:300,400,700&subset=cyrillic,cyrillic-ext' );
+	wp_enqueue_style( 'englishdeutsch-fonts-google', 'https://fonts.googleapis.com/css?family=Bad+Script|Proza+Libre:800i|Roboto:300,400,700&subset=cyrillic,cyrillic-ext' );
 
 	// main style
 	wp_enqueue_style( 'englishdeutsch-theme-style', get_template_directory_uri() . '/css/style.css' );
