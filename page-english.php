@@ -55,6 +55,72 @@ get_header('landing'); ?>
 			</section>
 			<!-- END TITLE SCREEN -->
 
+			<!-- ADVANTAGE -->
+			<section id="advantage" class="container-fluid">
+			  <div class="container title-container title"> 
+			    <h2 class="col-xs-12">Почему <strong>английский</strong> с нами?<img class="logo" src="<?php echo ( get_template_directory_uri() . '/img/logo.png'); ?>" alt="курсы английского языка в Одессе"></h2>
+			  </div>
+			  <article class="container-fluid">
+			    <div class="container title-container about">
+			      <h4>- Как работают курсы иностранных языков?</h4>
+			      <p class="col-xs-12">
+			      <br>
+			      1й вариант. Минимум грамматики, пару упражнений из ярких забавляющих тетрадок, еще один абзац на слух – это все, идем дальше.  У нас же на курсах «быстро и легко изучать язык!»<span> А то, что группа половину не усвоила, а половину не запомнила – это издержки производства. Зато общий уровень позволяет идти дальше.<br><br>
+			      2й вариант. С победным лозунгом «Мы научим Вас говорить» с первого же урока учитель на курсах <strong>английского языка</strong> общается только на <strong>английском</strong> и объясняет всю грамматику тоже только на <strong>английском</strong>. И это людям, которые языка толком не знают и со своим «intermediate» могут усвоит далеко не все. Абсурд, конечно. Не удивительно что многие тонкости остаются непонятыми. Но так как большинство кивает, преподаватель с легким сердцем переходит к следующей теме. «Ничего. В процессе разберутся. Главное: только послушайте - Вы уже говорите на английском языке!» А вот ЧТО Вы говорите и КАК – это уже детали. Но именно из-за этих деталей, из-за недоученного и недопонятого Вы и делаете ошибки и боитесь <strong>говорить по-английски</strong>. В итоге, так и формируется некий, такой популярный сейчас суржик, называемый «<strong>русский английский</strong>».<br><br>
+			      - Так как же преодолеть пресловутый языковой барьер?<br><br>
+			      Структура  любого языка – это 5 частей единого пазла: грамматика, лексика, чтение, письмо, разговорная речь. И только наладив все его составляющие можно механизм запустить. Вы не заговорите через 3 урока и Ваши учебники вряд ли увлекут любителей «Мурзилки». Но получив основательную грамматическую базу и общаясь на актуальные темы в Speaking Club Вы легко начнете говорить и воспринимать <strong>иностранный язык</strong>.</span>
+			      </p>
+			      <button class="readmore">Подробнее</button>
+			    </div>
+			  </article>
+			  
+			  <article class="container-fluid adv">
+			    <div class="background-mask container-fluid">
+			      <div class="container adv-container">
+			        <div class="adv-cell col-md-4 col-sm-6 col-xs-12">
+			          <img src="<?php echo ( get_template_directory_uri() . '/img/advantage/individual.png'); ?>" alt="Английский язык индивидуально">
+			          <h3>Индивидуальные занятия английским</h3>
+			        </div>
+			        <div class="adv-cell col-md-4 col-sm-6 col-xs-12">
+			          <img src="<?php echo ( get_template_directory_uri() . '/img/advantage/practice.png' ); ?>" alt="Английский практика разговорной речи">
+			          <h3>Практические занятия</h3>
+			        </div>
+			        <div class="adv-cell col-md-4 col-sm-6 col-xs-12">
+			          <img src="<?php echo ( get_template_directory_uri() . '/img/advantage/method.png' ); ?>" alt="Английский язык методика">
+			          <h3>Эффективная методика преподавания</h3>
+			        </div>
+					
+			        <div class="adv-cell col-md-4 col-sm-6 col-xs-12">
+			          <img src="<?php echo ( get_template_directory_uri() . '/img/advantage/map.png' ); ?>" alt="Курсы английского языка в приморском районе">
+			          <h3>Удобное расположение</h3>
+			        </div>
+			        <div class="adv-cell col-md-4 col-sm-6 col-xs-12">
+			          <img src="<?php echo ( get_template_directory_uri() . '/img/advantage/professional.png' ); ?>" alt="Английский язык учить у профессионалов">
+			          <h3>Профессиональные учителя</h3>
+			        </div>
+			        <div class="adv-cell col-md-4 col-sm-6 col-xs-12">
+			          <img src="<?php echo ( get_template_directory_uri() . '/img/advantage/raspisanie.png' ); ?>" alt="Расписание по Английскому">
+			          <h3>Удобное расписание</h3>
+			        </div>
+
+			        <div class="adv-cell col-md-4 col-sm-6 col-xs-12">
+			          <img src="<?php echo ( get_template_directory_uri() . '/img/advantage/skype.png' ); ?>" alt="Английский язык по скайпу">
+			          <h3>Урорки английского языка по Skype</h3>
+			        </div>
+			        <div class="adv-cell col-md-4 col-sm-6 col-xs-12">
+			          <img src="<?php echo ( get_template_directory_uri() . '/img/advantage/native.png' ); ?>" alt="Английский в Одессе с носителем языка">
+			          <h3>Обучение с носителем языка</h3>
+			        </div>
+			        <div class="adv-cell col-md-offset-0 col-md-4 col-sm-offset-4 col-sm-6 col-xs-12">
+			          <img src="<?php echo ( get_template_directory_uri() . '/img/advantage/speaking.png' ); ?>" alt="Курсы английского в Одессе разговорный клуб">
+			          <h3 id="teachersmark">Speaking & Movie club</h3>
+			        </div>
+			      </div>
+			    </div>
+			  </article>
+			</section>
+			<!-- END ADVANTAGE -->
+
 		</main><!-- #main -->
 	</div><!-- #primary -->
 

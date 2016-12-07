@@ -100,4 +100,23 @@
   #titlescreen .titlescreen .titleimage {
     display: none;
   }
+  #advantage .title-container {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  #advantage h2 {
+    text-align: center;
+    font-size: 24px;
+    line-height: 35px;
+    margin-bottom: 30px;
+  }
+  #advantage .logo {
+    display: block;
+    float: none;
+    margin: 0 auto;
+  }
+  #advantage p {
+    padding-right: 0;
+    text-align: justify;
+  }
 }

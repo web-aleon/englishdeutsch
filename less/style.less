@@ -263,7 +263,108 @@ header{
 		}
 	}
 }
+// END TITLE SCREEN
 
+//ADVANTAGES
+#advantage{
+	padding: 0;
+	background: @white;
+	.title{
+		padding-top: 40px;
+	}
+	.about{
+		padding-bottom: 50px;
+	}
+	.title-container{
+		padding-left: 5%;
+	}
+	article.container-fluid{
+		padding-left: 0;
+		padding-right: 0;
+	}
+	h2{
+		float: left;
+		width: 100%;
+		margin-top: 10px;
+		margin-bottom: 20px;	
+		padding: 0;
+		line-height: 70px;
+	}
+	.logo{
+		height: 70px;
+		width: auto;
+		float: right;
+		display: inline-block;
+	}
+	p{
+		margin-bottom: 30px;
+		padding-left: 0;
+		padding-right: 30%;
+
+		span{
+			display: none;
+		}
+	}
+	h4{
+		margin: 0;
+		display: block;
+	}
+	button{
+		height: 30px;
+		padding: 0 20px;
+		background: @yellow;
+		border: none;
+		border-radius: 5px;
+		font-size: 12px;
+		text-transform: uppercase;
+	}
+	button:hover{
+		background: darken(@yellow, 20%);
+	}
+	.adv{
+		background: url('../img/adv_bg.jpg');
+		background-size: cover;
+		padding: 0;
+		
+		.adv-container{
+			padding: 0;
+		}
+		.background-mask{
+			background: rgba(0,0,0,0.7);
+			padding-top: 60px;
+			padding-bottom: 40px;
+			padding-left: 0;
+			padding-right: 0;
+		}
+		.adv-cell{
+			display: table;
+			margin-bottom: 20px;
+			text-align: left;
+		}
+		img{
+			display: block;
+			float: left;
+			width: 50px;
+			height: 50px;
+			border-radius: 50%;
+			transition-duration: 1s;
+		}
+		.adv-cell:hover img{
+			background: @purple;
+			transform: rotate(360deg);
+		}
+		h3{	
+			display: table-cell;
+			width: 80%;
+			color: @white;
+			font-size: 16px;
+			margin: 0;
+			font-weight: lighter;
+			vertical-align: middle;
+		}
+	}
+}
+// END ADVANTAGE
 
 // ----------------------------------------------------------------------------------------------
 

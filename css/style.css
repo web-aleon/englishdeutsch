@@ -204,6 +204,102 @@ header nav.navbar li:hover {
 #titlescreen .titlescreen img {
   height: 100%;
 }
+#advantage {
+  padding: 0;
+  background: #fff;
+}
+#advantage .title {
+  padding-top: 40px;
+}
+#advantage .about {
+  padding-bottom: 50px;
+}
+#advantage .title-container {
+  padding-left: 5%;
+}
+#advantage article.container-fluid {
+  padding-left: 0;
+  padding-right: 0;
+}
+#advantage h2 {
+  float: left;
+  width: 100%;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  padding: 0;
+  line-height: 70px;
+}
+#advantage .logo {
+  height: 70px;
+  width: auto;
+  float: right;
+  display: inline-block;
+}
+#advantage p {
+  margin-bottom: 30px;
+  padding-left: 0;
+  padding-right: 30%;
+}
+#advantage p span {
+  display: none;
+}
+#advantage h4 {
+  margin: 0;
+  display: block;
+}
+#advantage button {
+  height: 30px;
+  padding: 0 20px;
+  background: #FFE94A;
+  border: none;
+  border-radius: 5px;
+  font-size: 12px;
+  text-transform: uppercase;
+}
+#advantage button:hover {
+  background: #e3c700;
+}
+#advantage .adv {
+  background: url('../img/adv_bg.jpg');
+  background-size: cover;
+  padding: 0;
+}
+#advantage .adv .adv-container {
+  padding: 0;
+}
+#advantage .adv .background-mask {
+  background: rgba(0, 0, 0, 0.7);
+  padding-top: 60px;
+  padding-bottom: 40px;
+  padding-left: 0;
+  padding-right: 0;
+}
+#advantage .adv .adv-cell {
+  display: table;
+  margin-bottom: 20px;
+  text-align: left;
+}
+#advantage .adv img {
+  display: block;
+  float: left;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  transition-duration: 1s;
+}
+#advantage .adv .adv-cell:hover img {
+  background: #2D004E;
+  transform: rotate(360deg);
+}
+#advantage .adv h3 {
+  display: table-cell;
+  width: 80%;
+  color: #fff;
+  font-size: 16px;
+  margin: 0;
+  font-weight: lighter;
+  vertical-align: middle;
+}
 body#mainPage {
   background: none;
   padding: 0;
