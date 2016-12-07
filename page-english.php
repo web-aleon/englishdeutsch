@@ -451,7 +451,40 @@ get_header('landing'); ?>
 
 			<!-- END ALL LESSONS SLIDER -->
 
-			       
+			<!-- TEACHERS -->
+			<section id="teachers">
+			  <div class="container">
+			    <h2 class="col-xs-12">Преподаватели <strong>английского</strong> языка</h2>
+			    <article class="first col-md-3 col-sm-6 col-xs-12">
+			      <div class="image-container"><img src="<?php echo( get_template_directory_uri() . '/img/teachers/english_teacher_1.jpg'); ?>" alt="Учитель английского языка"></div>
+			      <h3>Песчанская Ксения</h3>
+			      <p>Закончила университет им. Мечникова по специальности "<strong>английский язык</strong> и литература".<span> Так же проходила обучение в Шотландии в университете Сент Эндрюс. Опыт преподавания в УВК им. А.С. Пушкина №90 более 10 лет. Легко и доступно умеет объяснить сложные элементы английской грамматики. Поможет достич хорошего результата в изучении английского языка.</span></p>
+			      <button class="readmore">Подробнее</button>
+			    </article>
+			    <article class="second col-md-3 col-sm-6 col-xs-12">
+			      <div class="image-container"><img src="<?php echo( get_template_directory_uri() . '/img/teachers/english_teacher_2.jpg'); ?>" alt="Учитель английского языка"></div>
+			      <h3>Michael Adkinson</h3>
+			      <p>Закончил  Graduated high school в Кентуки, США. Приехал в Одессу в 2015 году, здесь преподает <span>английский частным образом для IT компаний и в школах. Поможет быстро преодолеть языковой барьер. На индивидуальных занятиях и в Speaking Club Вы разовьете навыки общения на английском языке.</span></p>
+			      <button class="readmore">Подробнее</button>
+			    </article>
+			    <article class="third col-md-3 col-sm-6 col-xs-12">
+			      <div class="image-container"><img src="<?php echo( get_template_directory_uri() . '/img/teachers/english_teacher_3.jpg'); ?>" alt="Учитель английского языка"></div>
+			      <h3>Basil Igboechi</h3>
+			      <p>Уроженец Abuja, Nigeria. Преподавал английский язык в течении шести лет в таких школах, как Interlingua,<span> Southern Albion и в Медицинском университете.</span></p>
+			      <button class="readmore">Подробнее</button>
+			    </article>
+			    <article class="fourth col-md-3 col-sm-6 col-xs-12">
+			      <div class="image-container"><img src="<?php echo( get_template_directory_uri() . '/img/teachers/english_teacher_4.jpg'); ?>" alt="Учитель английского языка"></div>
+			      <h3>Татьяна Бабиченко</h3>
+			      <p>Закончила университет им. Мечникова по специальности "английский язык и литература"<span>. Опыт преподавания частным образом 7 лет. Хорошо находит общий язык с детьми и делает обучение интересным и увлекательным.</span></p>
+			      <button class="readmore">Подробнее</button>
+			    </article>
+			  </div>
+			</section>
+			<!-- END TEACHERS -->
+
+			<div class="container-fluid empty-water"></div> 
+
 		</main><!-- #main -->
 	</div><!-- #primary -->
 

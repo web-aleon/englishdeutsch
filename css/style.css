@@ -768,6 +768,60 @@ header nav.navbar li:hover {
   background-size: auto 70%;
   background-position: 50% 50%;
 }
+#teachers {
+  background: #fff;
+}
+#teachers h2 {
+  text-align: center;
+}
+#teachers article {
+  margin-top: 30px;
+  margin-bottom: 40px;
+}
+#teachers .image-container {
+  width: 200px;
+  height: 200px;
+  margin: 0 auto;
+}
+#teachers img {
+  display: block;
+  width: 195px;
+  height: 195px;
+  margin: 0 auto;
+  border-radius: 50%;
+  transition-duration: 1s;
+}
+#teachers article:hover img {
+  width: 200px;
+  height: 200px;
+}
+#teachers h3 {
+  text-align: center;
+  font-size: 18px;
+  font-weight: bold;
+}
+#teachers p {
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+#teachers span {
+  display: none;
+}
+#teachers button {
+  float: right;
+  height: 30px;
+  padding: 0 20px;
+  background: #444444;
+  color: #fff;
+  border-radius: 5px;
+  border: none;
+  font-size: 12px;
+  text-transform: uppercase;
+}
+#teachers button:hover {
+  background: #FFE94A;
+  color: #444444;
+}
 body#mainPage {
   background: none;
   padding: 0;
