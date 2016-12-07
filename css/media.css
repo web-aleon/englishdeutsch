@@ -50,6 +50,9 @@
   #titlescreen .titlescreen .titleimage {
     height: 320px;
   }
+  section#numbers p.number {
+    font-size: 60px;
+  }
 }
 @media (max-width: 767px) {
   header nav.navbar {
@@ -118,5 +121,13 @@
   #advantage p {
     padding-right: 0;
     text-align: justify;
+  }
+  #numbers .bordered {
+    border-right: none;
+    border-bottom: 1px solid #aaaaaa;
+  }
+  #numbers .numblock {
+    padding-top: 25px;
+    padding-bottom: 25px;
   }
 }

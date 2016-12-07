@@ -121,6 +121,29 @@ get_header('landing'); ?>
 			</section>
 			<!-- END ADVANTAGE -->
 
+			<!-- NUMBERS -->
+			<section id="numbers">
+			  <div class="container-fluid">
+			    <!-- <h2 class="col-xs-12">Мы в <strong>цифрах</strong></h2> -->
+			    <div class="col-xs-12 col-sm-4 bordered numblock">
+			      <p id="num1" class="number"></p>
+			      <hr>
+			      <p class="desc">Счастливых учеников</p>
+			    </div>
+			    <div class="col-xs-12 col-sm-4 bordered numblock">
+			      <p id="num2" class="number"></p>
+			      <hr>
+			      <p class="desc">Проведенных уроков</p>
+			    </div>
+			    <div class="col-xs-12 col-sm-4 numblock">
+			      <p id="num3" class="number"></p>
+			      <hr>
+			      <p class="desc">Проведенных <br>Speaking & Movie Club</p>
+			    </div>
+			  </div>
+			</section>
+			<!-- END NUMBERS -->
+
 		</main><!-- #main -->
 	</div><!-- #primary -->
 

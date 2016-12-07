@@ -300,6 +300,50 @@ header nav.navbar li:hover {
   font-weight: lighter;
   vertical-align: middle;
 }
+#numbers {
+  background: #fff;
+}
+#numbers .container-fluid {
+  padding: 0;
+}
+#numbers .bordered {
+  border-right: 1px solid #aaaaaa;
+}
+#numbers .numblock {
+  padding-top: 90px;
+  padding-bottom: 90px;
+}
+#numbers h2,
+#numbers p {
+  text-align: center;
+}
+#numbers h2 {
+  margin-top: 30px;
+  padding-bottom: 30px;
+  margin-bottom: 0;
+  border-bottom: 1px solid #aaaaaa;
+}
+#numbers p.number {
+  font-size: 70px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  line-height: 70px;
+}
+#numbers hr {
+  width: 50px;
+  display: block;
+  margin: 0 auto;
+  height: 3px;
+  background: #444444;
+  margin-bottom: 30px;
+}
+#numbers p.desc {
+  font-size: 16px;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-bottom: 0;
+  height: 44px;
+}
 body#mainPage {
   background: none;
   padding: 0;
