@@ -130,11 +130,11 @@ function englishdeutsch_scripts() {
 	// viewportchecker
 	wp_enqueue_script( 'englishdeutsch-viewport-checker', 'https://cdnjs.cloudflare.com/ajax/libs/jQuery-viewport-checker/1.8.7/jquery.viewportchecker.min.js', array(), '20151215', true );
 
-	// scroll
-	wp_enqueue_script( 'englishdeutsch-scroll-js', get_template_directory_uri() . '/js/scroll.js', array(), '20151215', true );
-
 	// wp my scripts
 	wp_enqueue_script( 'englishdeutsch-wp-myscript-js', get_template_directory_uri() . '/js/wp_myscript.js', array(), '20151215', true );
+	
+	// scroll
+	wp_enqueue_script( 'englishdeutsch-scroll-js', get_template_directory_uri() . '/js/scroll.js', array(), '20151215', true );
 
 	// main script
 	wp_enqueue_script( 'englishdeutsch-function-js', get_template_directory_uri() . '/js/function.js', array(), '20151215', true );

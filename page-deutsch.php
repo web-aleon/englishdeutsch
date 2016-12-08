@@ -14,29 +14,25 @@
 
 get_header('landing'); ?>
 	<div class="clear"></div>
-	<div id="primary" class="content-area english-page">
+	<div id="primary" class="content-area deutsch-page">
 		<main id="main" class="site-main" role="main">
 
 			<!-- mini-messages -->
-			  <p id="miniMessage1" class="mini-message mess1">
-			    <!-- Подготовить ребенка к ЗНО -->
-			    <b>like a shot</b> - очень быстро
-			  </p>
+			<p id="miniMessage1" class="mini-message mess1">
+			Подготовить ребенка к ЗНО
+			</p>
 
-			  <p id="miniMessage2" class="mini-message mess2">
-			    <!-- Преодолеть языковой барьер -->
-			    <b>like that</b> - вот так
-			  </p>
+			<p id="miniMessage2" class="mini-message mess2">
+			Преодолеть языковой барьер
+			</p>
 
-			  <p id="miniMessage3" class="mini-message mess3">
-			    <!-- Нужно выполнять домашнее задание -->
-			    <b>as follows</b> - следующее
-			  </p>
+			<p id="miniMessage3" class="mini-message mess3">
+			Нужно выполнять домашнее задание
+			</p>
 
-			  <p id="miniMessage4" class="mini-message mess4">
-			    <!-- Хочу свободно говорить -->
-			    <b>fair play</b> - игра по-честному
-			  </p>
+			<p id="miniMessage4" class="mini-message mess4">
+			Хочу свободно говорить
+			</p>
 			<!-- END mii-messages -->
 
 			<!-- TITLESCREEN -->
@@ -44,7 +40,7 @@ get_header('landing'); ?>
 			  <div class="container-fluid titlescreen">
 			      <div class="col-lg-offset-2 col-lg-4 col-sm-offset-1 col-sm-5 col-xs-12 no-padd">
 			        <div class="container-fluid mobile-head-bg">
-			          <h1 itemprop="name">Курсы <br>Английского языка</h1>
+			          <h1 itemprop="name">Курсы <br>Немецкого языка</h1>
 			          <h3>Индивидуальные занятия в Одессе</h3>
 			          <p>запись с 10:00 до 18:00</p>
 			        </div>
@@ -58,7 +54,7 @@ get_header('landing'); ?>
 			<!-- ADVANTAGE -->
 			<section id="advantage" class="container-fluid">
 			  <div class="container title-container title"> 
-			    <h2 class="col-xs-12">Почему <strong>английский</strong> с нами?<img class="logo" src="<?php echo ( get_template_directory_uri() . '/img/logo.png'); ?>" alt="курсы английского языка в Одессе"></h2>
+			    <h2 class="col-xs-12">Почему <strong>немецкий</strong> с нами?<img class="logo" src="<?php echo ( get_template_directory_uri() . '/img/logo.png'); ?>" alt="курсы английского языка в Одессе"></h2>
 			  </div>
 			  <article class="container-fluid">
 			    <div class="container title-container about">
@@ -78,42 +74,42 @@ get_header('landing'); ?>
 			    <div class="background-mask container-fluid">
 			      <div class="container adv-container">
 			        <div class="adv-cell col-md-4 col-sm-6 col-xs-12">
-			          <img src="<?php echo ( get_template_directory_uri() . '/img/advantage/individual.png'); ?>" alt="Английский язык индивидуально">
-			          <h3>Индивидуальные занятия английским</h3>
+			          <img src="<?php echo ( get_template_directory_uri() . '/img/advantage/individual.png'); ?>" alt="Немецкий язык индивидуально">
+			          <h3>Индивидуальные занятия немецким</h3>
 			        </div>
 			        <div class="adv-cell col-md-4 col-sm-6 col-xs-12">
-			          <img src="<?php echo ( get_template_directory_uri() . '/img/advantage/practice.png' ); ?>" alt="Английский практика разговорной речи">
+			          <img src="<?php echo ( get_template_directory_uri() . '/img/advantage/practice.png' ); ?>" alt="Немецкий практика разговорной речи">
 			          <h3>Практические занятия</h3>
 			        </div>
 			        <div class="adv-cell col-md-4 col-sm-6 col-xs-12">
-			          <img src="<?php echo ( get_template_directory_uri() . '/img/advantage/method.png' ); ?>" alt="Английский язык методика">
+			          <img src="<?php echo ( get_template_directory_uri() . '/img/advantage/method.png' ); ?>" alt="Немецкий язык методика">
 			          <h3>Эффективная методика преподавания</h3>
 			        </div>
 					
 			        <div class="adv-cell col-md-4 col-sm-6 col-xs-12">
-			          <img src="<?php echo ( get_template_directory_uri() . '/img/advantage/map.png' ); ?>" alt="Курсы английского языка в приморском районе">
+			          <img src="<?php echo ( get_template_directory_uri() . '/img/advantage/map.png' ); ?>" alt="Курсы немецкого языка в приморском районе">
 			          <h3>Удобное расположение</h3>
 			        </div>
 			        <div class="adv-cell col-md-4 col-sm-6 col-xs-12">
-			          <img src="<?php echo ( get_template_directory_uri() . '/img/advantage/professional.png' ); ?>" alt="Английский язык учить у профессионалов">
+			          <img src="<?php echo ( get_template_directory_uri() . '/img/advantage/professional.png' ); ?>" alt="Немецкий язык учить у профессионалов">
 			          <h3>Профессиональные учителя</h3>
 			        </div>
 			        <div class="adv-cell col-md-4 col-sm-6 col-xs-12">
-			          <img src="<?php echo ( get_template_directory_uri() . '/img/advantage/raspisanie.png' ); ?>" alt="Расписание по Английскому">
+			          <img src="<?php echo ( get_template_directory_uri() . '/img/advantage/raspisanie.png' ); ?>" alt="Расписание по Немецкому">
 			          <h3>Удобное расписание</h3>
 			        </div>
 
 			        <div class="adv-cell col-md-4 col-sm-6 col-xs-12">
-			          <img src="<?php echo ( get_template_directory_uri() . '/img/advantage/skype.png' ); ?>" alt="Английский язык по скайпу">
-			          <h3>Уроки английского языка по Skype</h3>
+			          <img src="<?php echo ( get_template_directory_uri() . '/img/advantage/skype.png' ); ?>" alt="Немецкий язык по скайпу">
+			          <h3>Уроки немецкого языка по Skype</h3>
 			        </div>
 			        <div class="adv-cell col-md-4 col-sm-6 col-xs-12">
-			          <img src="<?php echo ( get_template_directory_uri() . '/img/advantage/native.png' ); ?>" alt="Английский в Одессе с носителем языка">
+			          <img src="<?php echo ( get_template_directory_uri() . '/img/advantage/native.png' ); ?>" alt="Немецкий в Одессе с носителем языка">
 			          <h3>Обучение с носителем языка</h3>
 			        </div>
 			        <div class="adv-cell col-md-offset-0 col-md-4 col-sm-offset-4 col-sm-6 col-xs-12">
-			          <img src="<?php echo ( get_template_directory_uri() . '/img/advantage/speaking.png' ); ?>" alt="Курсы английского в Одессе разговорный клуб">
-			          <h3 id="teachersmark">Speaking & Movie club</h3>
+			          <img src="<?php echo ( get_template_directory_uri() . '/img/advantage/speaking.png' ); ?>" alt="Курсы немецкого в Одессе разговорный клуб">
+			          <h3 id="teachersmark">Konversations- und Filmclub</h3>
 			        </div>
 			      </div>
 			    </div>
@@ -138,7 +134,7 @@ get_header('landing'); ?>
 			    <div class="col-xs-12 col-sm-4 numblock">
 			      <p id="num3" class="number"></p>
 			      <hr>
-			      <p class="desc">Проведенных <br>Speaking & Movie Club</p>
+			      <p class="desc">Проведенных <br>Разговорных клубов</p>
 			    </div>
 			  </div>
 			</section>
@@ -177,7 +173,7 @@ get_header('landing'); ?>
 			        </div>
 			        <div class="hex hex-1 children">
 			          <div class="inner">
-			            <p>Английский <br><span>для детей</span></p>
+			            <p>Немецкий <br><span>для детей</span></p>
 			          </div>
 			          <a class="scrollto lestoslide" href="#answer-callback" data-class="1"></a>
 			          <div class="corner-1"></div>
@@ -202,17 +198,15 @@ get_header('landing'); ?>
 			      <div class="row2">
 			        <div class="hex hex-3 intensive">
 			          <div class="inner">
-			            <p>Интенсив</p>
 			          </div>
-			          <a class="scrollto lestoslide" href="#answer-callback" data-class="2"></a>
+			          <a href="#"></a>
 			          <div class="corner-1"></div>
 			          <div class="corner-2"></div>
 			        </div>
 			        <div class="hex hex-2 odd shipping">
 			          <div class="inner">
-			            <p>Морской <br><span>английский</span></p>
 			          </div>
-			          <a class="scrollto lestoslide" href="#answer-callback" data-class="3"></a>
+			          <a href="#"></a>
 			          <div class="corner-1"></div>
 			          <div class="corner-2"></div>
 			        </div>
@@ -220,23 +214,22 @@ get_header('landing'); ?>
 			          <div class="inner">
 			            <p>Уроки <br><span>по Skype</span></p>
 			          </div>
-			          <a class="scrollto lestoslide" href="#answer-callback" data-class="6"></a>
+			          <a class="scrollto lestoslide" href="#answer-callback" data-class="3"></a>
 			          <div class="corner-1"></div>
 			          <div class="corner-2"></div>
 			        </div>
 			        <div class="hex hex-3 odd native">
 			          <div class="inner">
-			            <p>Занятие <br><span>с носителем языка</span></p>
 			          </div>
-			          <a class="scrollto lestoslide" href="#answer-callback" data-class="4"></a>
+			          <a href="#"></a>
 			          <div class="corner-1"></div>
 			          <div class="corner-2"></div>
 			        </div>
 			        <div class="hex hex-1 speaking">
 			          <div class="inner">
-			            <p>Speaking <span>and</span> <br>movie <span>club</span></p>
+			            <p><span>Konversations- </span> und <br><span>Film</span>club</p>
 			          </div>
-			          <a class="scrollto lestoslide" href="#answer-callback" data-class="5"></a>
+			          <a class="scrollto lestoslide" href="#answer-callback" data-class="2"></a>
 			          <div class="corner-1"></div>
 			          <div class="corner-2"></div>
 			        </div>
@@ -251,7 +244,7 @@ get_header('landing'); ?>
 			<!-- ANSWER CALLBACK -->
 			<section id="answer-callback" class="container-fluid">
 			  <div class="container">
-			    <h2><span>Заказать</span> бесплатный урок</h2>
+			    <h2><span>Заказать</span> звонок</h2>
 			    <form id="answerCallback">
 			      <input class="col-md-offset-2 col-sm-offset-1 col-sm-4" type="text" name="name" placeholder="Имя" required>
 			      <input class="col-sm-4" type="text" name="phone" placeholder="Телефон" required>
@@ -272,9 +265,6 @@ get_header('landing'); ?>
 			      <li data-target="#carousel-example-generic" data-slide-to="1"></li>
 			      <li data-target="#carousel-example-generic" data-slide-to="2"></li>
 			      <li data-target="#carousel-example-generic" data-slide-to="3"></li>
-			      <li data-target="#carousel-example-generic" data-slide-to="4"></li>
-			      <li data-target="#carousel-example-generic" data-slide-to="5"></li>
-			      <li data-target="#carousel-example-generic" data-slide-to="6"></li>
 			    </ol>
 
 			    <!-- Wrapper for slides -->
@@ -308,9 +298,9 @@ get_header('landing'); ?>
 			            </div>
 
 			            <div class="col-sm-6 col-xs-12">
-			              <h2 class="text-right"><span>Английский</span> для детей</h2>
+			              <h2 class="text-right"><span>Немецкий</span> для детей</h2>
 			              <div class="container-fluid lessoninfo">
-			                <ul class="col-md-6 col-sm-8 col-xs-12 description  text-right">
+			                <ul class="col-md-6 col-sm-8 col-xs-12 description text-right">
 			                  <li>Выполнение домашних заданий</li>
 			                  <li>Подготовка к экзаменам</li>
 			                  <li>Занятия проходят в игровой форме</li>
@@ -326,81 +316,10 @@ get_header('landing'); ?>
 			      </div>
 			      
 			      <div class="item">
-			        <article id="intensive" class="container-fluid all-lessons">
-			          <div class="container">  
-			            <div class="col-sm-6 col-xs-12 text-left">
-			              <h2>Интенсив</h2>
-			              <div class="container-fluid lessoninfo">
-			                <p class="col-sm-6 col-xs-12 description">
-			                Включает в себя полный "Стандартный курс" за 2 месяца
-			                </p>
-			                <p class="col-sm-6 col-xs-12 lessons-by-week"><span>3 раза</span> в неделю. <span>Продолжительность:</span> <br>2 месяца.</p>
-			                <p class="col-lg-6 col-xs-12 indiv">( Расписание составляется индивидуально для каждого )</p>
-			              </div>
-			              <p class="col-sm-12 col-xs-7 price">250 <span>грн</span> / 120 <span>мин</span></p>
-			              <a class="scrollto" href="#map"><button class="col-md-5 col-sm-6 col-xs-3">Узнать подробнее</button></a>
-			            </div>
-
-			            <div class="col-sm-6 image">
-			            </div>
-			          </div>
-			        </article>
-			      </div>
-
-			      <div class="item">
-			        <article id="shipping" class="container-fluid all-lessons">
-			          <div class="container">
-			            <div class="col-sm-6 image">
-			            </div>
-
-			            <div class="col-sm-6 col-xs-12">
-			              <h2 class="text-right"><span>Морской</span> английский</h2>
-			              <div class="container-fluid lessoninfo">
-			                <ul class="col-md-6 col-sm-7 col-xs-12 description  text-right">
-			                  <li>изучение терминологии</li>
-			                  <li>грамматика</li>
-			                  <li>разговорные навыки</li>
-			                  <li>подготовка к собеседованию</li>
-			                </ul>
-			                <p class="col-md-6 col-sm-5 col-xs-12 lessons-by-week"><span>3 раза</span> в неделю. <span>Продолжительность:</span> <br>2 месяца.</p>
-			                <p class="col-lg-6 col-xs-12 indiv">( Расписание составляется индивидуально для каждого )</p>
-			              </div>
-			              <p class="col-sm-12 col-xs-7 price">250 <span>грн</span> / 120 <span>мин</span></p>
-			              <a class="scrollto" href="#map"><button class="col-md-5 col-sm-6 col-xs-3">Узнать подробнее</button></a>
-			            </div>
-			          </div>
-			        </article>
-			      </div>
-
-			      <div class="item">
-			        <article id="native" class="container-fluid all-lessons">
-			          <div class="container">  
-			            <div class="col-sm-6 col-xs-12 text-left">
-			              <h2><span>Занятие</span> с носителем языка</h2>
-			              <div class="container-fluid lessoninfo">
-			                <ul class="col-sm-12 col-xs-12 description">
-			                  <li>разговорная практика</li>
-			                  <li>преодоление языкового барьера</li>
-			                </ul>
-			              </div>
-			              <p class="col-sm-12 col-xs-7 price">300 <span>грн</span> / 120 <span>мин</span></p>
-			              <a class="scrollto" href="#map"><button class="col-md-5 col-sm-6 col-xs-3">Узнать подробнее</button></a>
-			            </div>
-
-			            <div class="col-sm-6 image">
-			            </div>
-			          </div>
-			        </article>
-			      </div>
-
-			      <div class="item">
 			        <article id="speaking-club" class="container-fluid all-lessons">
 			          <div class="container">
-			            <div class="col-sm-6 image">
-			            </div>
-
 			            <div class="col-sm-6 col-xs-12 text-right">
-			              <h2><span>Speaking</span> and <span>movie</span> club</h2>
+			              <h2><span>Konversations- </span> und <span>Film</span>club</h2>
 			              <div class="container-fluid lessoninfo">
 			                <ul class="col-sm-12 col-xs-12 description">
 			                  <li>обсуждение актуальных вопросов, статей</li>
@@ -411,6 +330,9 @@ get_header('landing'); ?>
 			              <p class="col-sm-12 col-xs-7 price">70 <span>грн</span> / 60 <span>мин</span></p>
 			              <a class="scrollto" href="#map"><button class="col-md-5 col-sm-6 col-xs-3">Узнать подробнее</button></a>
 			            </div>
+
+			            <div class="col-sm-6 image">
+			            </div>
 			          </div>
 			        </article>
 			      </div>
@@ -418,18 +340,18 @@ get_header('landing'); ?>
 			      <div class="item">
 			        <article id="skype" class="container-fluid all-lessons">
 			          <div class="container">  
+			            <div class="col-sm-6 image">
+			            </div>
+
 			            <div class="col-sm-6 col-xs-12 text-left">
 			              <h2><span>Занятие</span> по Skype</h2>
 			              <div class="container-fluid lessoninfo">
 			                <p class="col-sm-12 col-xs-12 description">
-			                  Занятия по Скайпу - это индивидуальные занятия дома в удобное для вас время. Уроки английского языка онлайн - хороший способ повысить свой уровень английского, а так же приобрести разговорные навыки и практику.
+			                  Занятия по Скайпу - это индивидуальные занятия дома в удобное для вас время. Уроки немецкого онлайн - хороший способ повысить свой уровень немецкого.
 			                </p>
 			              </div>
 			              <p class="col-sm-12 col-xs-7 price">150 <span>грн</span> / 60 <span>мин</span></p>
 			              <a class="scrollto" href="#map"><button class="col-md-5 col-sm-6 col-xs-3">Узнать подробнее</button></a>
-			            </div>
-
-			            <div class="col-sm-6 image">
 			            </div>
 			          </div>
 			        </article>
@@ -455,28 +377,16 @@ get_header('landing'); ?>
 				<a id="teachersAnchor" class="anchor"></a>
 			  <div class="container">
 			    <h2 class="col-xs-12">Преподаватели <strong>английского</strong> языка</h2>
-			    <article class="first col-md-3 col-sm-6 col-xs-12">
-			      <div class="image-container"><img src="<?php echo( get_template_directory_uri() . '/img/teachers/english_teacher_1.jpg'); ?>" alt="Учитель английского языка"></div>
+			    <article class="first col-md-offset-2 col-md-3 col-sm-6 col-xs-12">
+			      <div class="image-container"><img src="<?php echo( get_template_directory_uri() . '/img/teachers/deutsch_teacher_1.jpg'); ?>" alt="Учитель немецкого языка"></div>
 			      <h3>Песчанская Ксения</h3>
 			      <p>Закончила университет им. Мечникова по специальности "<strong>английский язык</strong> и литература".<span> Так же проходила обучение в Шотландии в университете Сент Эндрюс. Опыт преподавания в УВК им. А.С. Пушкина №90 более 10 лет. Легко и доступно умеет объяснить сложные элементы английской грамматики. Поможет достич хорошего результата в изучении английского языка.</span></p>
 			      <button class="readmore">Подробнее</button>
 			    </article>
-			    <article class="second col-md-3 col-sm-6 col-xs-12">
-			      <div class="image-container"><img src="<?php echo( get_template_directory_uri() . '/img/teachers/english_teacher_2.jpg'); ?>" alt="Учитель английского языка"></div>
-			      <h3>Michael Adkinson</h3>
-			      <p>Закончил  Graduated high school в Кентуки, США. Приехал в Одессу в 2015 году, здесь преподает <span>английский частным образом для IT компаний и в школах. Поможет быстро преодолеть языковой барьер. На индивидуальных занятиях и в Speaking Club Вы разовьете навыки общения на английском языке.</span></p>
-			      <button class="readmore">Подробнее</button>
-			    </article>
-			    <article class="third col-md-3 col-sm-6 col-xs-12">
-			      <div class="image-container"><img src="<?php echo( get_template_directory_uri() . '/img/teachers/english_teacher_3.jpg'); ?>" alt="Учитель английского языка"></div>
-			      <h3>Basil Igboechi</h3>
-			      <p>Уроженец Abuja, Nigeria. Преподавал английский язык в течении шести лет в таких школах, как Interlingua,<span> Southern Albion и в Медицинском университете.</span></p>
-			      <button class="readmore">Подробнее</button>
-			    </article>
-			    <article class="fourth col-md-3 col-sm-6 col-xs-12">
-			      <div class="image-container"><img src="<?php echo( get_template_directory_uri() . '/img/teachers/english_teacher_4.jpg'); ?>" alt="Учитель английского языка"></div>
-			      <h3>Татьяна Бабиченко</h3>
-			      <p>Закончила университет им. Мечникова по специальности "английский язык и литература"<span>. Опыт преподавания частным образом 7 лет. Хорошо находит общий язык с детьми и делает обучение интересным и увлекательным.</span></p>
+			    <article class="second col-md-offset-2 col-md-3 col-sm-6 col-xs-12">
+			      <div class="image-container"><img src="<?php echo( get_template_directory_uri() . '/img/teachers/deutsch_teacher_2.jpg'); ?>" alt="Учитель немецкого языка"></div>
+			      <h3>Петушкова Марина</h3>
+			      <p>Закончила университет им. Мечникова по специальности "немецкий язык и литература".<span> Опыт преподавания в Одесском национальном политехническом университете, на кафедре немецкого языка, более десяти лет. Интересно и понятно заполнит пробелы в лексике и грамматике немецкого языка. Вы заговорите на немецком с удовольствием.</span></p>
 			      <button class="readmore">Подробнее</button>
 			    </article>
 			  </div>
@@ -519,7 +429,7 @@ get_header('landing'); ?>
 			      </div> -->
 			    </div>
 			</section>
-			<!-- END MAP --> 
+			<!-- END MAP -->
 
 		</main><!-- #main -->
 	</div><!-- #primary -->

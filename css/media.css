@@ -141,6 +141,12 @@
     font-size: 0.8em;
   }
 }
+@media (max-width: 991px) and (max-width: 1199px) {
+  body#mainPage .picture img {
+    position: relative;
+    top: 20%;
+  }
+}
 @media (max-width: 767px) {
   .english-page {
     background: url('../img/background_lessons_mobile.jpg') no-repeat;
@@ -387,5 +393,75 @@
   }
   footer .contacts {
     width: 100%;
+  }
+  .deutsch-page {
+    background: url('../img/deutsch/background.jpg') repeat;
+    background-size: contain;
+    background-attachment: fixed;
+  }
+  .deutsch-page .mini-message {
+    background: url('../img/deutsch/cloud.png') 50% 50% no-repeat;
+    background-size: 100% auto;
+  }
+  .deutsch-page #titlescreen .titlescreen {
+    text-align: center;
+    background: url('../img/deutsch/head-koln.jpg') no-repeat;
+    background-size: 100% 100%;
+  }
+  .deutsch-page #titlescreen .titlescreen .mobile-head-bg {
+    background: #FE0000;
+  }
+  .deutsch-page #lessons .hexagon .row2 {
+    height: 330px;
+    margin: 0px auto 0;
+  }
+  .deutsch-page #lessons .hexagon .standart,
+  .deutsch-page #lessons .hexagon .children,
+  .deutsch-page #lessons .hexagon .skype,
+  .deutsch-page #lessons .hexagon .speaking {
+    margin-top: 70px;
+  }
+  .deutsch-page #lessons .hexagon .intensive,
+  .deutsch-page #lessons .hexagon .shipping,
+  .deutsch-page #lessons .hexagon .native,
+  .deutsch-page #lessons .hexagon .empty {
+    display: none;
+  }
+  body#mainPage .tagline-block {
+    margin-top: 1%;
+  }
+  body#mainPage .tagline-block .tagline {
+    display: block;
+    font-size: 1.1em;
+  }
+  body#mainPage h2 {
+    margin-top: 6%;
+    font-size: 1.5em;
+    line-height: 1.4em;
+  }
+  body#mainPage h3 {
+    font-size: 1.1em;
+    display: block;
+    margin-top: 10px;
+  }
+  body#mainPage button {
+    display: inline-block;
+    width: 100px;
+    height: 35px;
+    margin-top: 5px;
+    font-size: 0.9em;
+  }
+  body#mainPage .left,
+  body#mainPage .right {
+    width: 100%;
+  }
+  body#mainPage .left {
+    height: 55vh;
+  }
+  body#mainPage .right {
+    height: 45vh;
+  }
+  body#mainPage .right .tagline-block {
+    display: none;
   }
 }

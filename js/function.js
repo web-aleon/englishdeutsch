@@ -3,7 +3,7 @@ $(document).ready(function() {
 	$("#answerCallback").submit(function(){
 		$.ajax({
 			type: "POST",
-			url: "../send.php",
+			url: "/wp-content/themes/englishdeutsch/send.php",
 			data: $(this).serialize()
 		}).done(function(){
 			$(this).find("input").val("");
@@ -18,7 +18,7 @@ $(document).ready(function() {
 	$("#mapFeedback").submit(function(){
 		$.ajax({
 			type: "POST",
-			url: "../send.php",
+			url: "/wp-content/themes/englishdeutsch/send.php",
 			data: $(this).serialize()
 		}).done(function(){
 			$(this).find("input").val("");

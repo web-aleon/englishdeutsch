@@ -8,6 +8,13 @@ body {
   font-family: 'Roboto', sans-serif;
   font-size: 14px;
 }
+a.anchor {
+  margin-top: -98px;
+  display: inline-block;
+  position: relative;
+  height: 98px;
+  width: 0px;
+}
 h2 {
   text-transform: uppercase;
   margin-top: 40px;
@@ -128,12 +135,12 @@ header {
   z-index: 9999;
 }
 header .head-contacts {
-  background-color: #FFE94A;
+  background-color: #444444;
   height: 28px;
 }
 header .mobile {
   float: right;
-  color: #444444;
+  color: #fff;
   font-weight: bold;
   line-height: 2em;
 }
@@ -983,6 +990,149 @@ footer a:hover {
 footer .contacts {
   padding: 0;
 }
+.deutsch-page {
+  background: url('../img/deutsch/background.jpg') repeat;
+  background-size: contain;
+  background-attachment: fixed;
+}
+.deutsch-page .mini-message {
+  background: url('../img/deutsch/cloud.png') 50% 50% no-repeat;
+  background-size: 100% auto;
+}
+.deutsch-page #titlescreen .titlescreen {
+  background: #FE0000;
+}
+.deutsch-page #titlescreen .titlescreen h1,
+.deutsch-page #titlescreen .titlescreen h3,
+.deutsch-page #titlescreen .titlescreen p {
+  color: #fff;
+}
+.deutsch-page #titlescreen .titlescreen h1 {
+  border-bottom: 1px solid #fff;
+}
+.deutsch-page #titlescreen .titlescreen .titleimage {
+  background: url('../img/deutsch/head-koln.jpg');
+  background-size: 100% 100%;
+}
+.deutsch-page #titlescreen .titlescreen img {
+  height: 100%;
+}
+.deutsch-page #advantage button {
+  background: #FE0000;
+  color: #fff;
+}
+.deutsch-page #advantage button:hover {
+  background: #980000;
+}
+.deutsch-page #advantage .adv .adv-cell:hover img {
+  background: #FE0000;
+}
+.deutsch-page #lessons .bg-transparent {
+  background: rgba(255, 255, 255, 0.85);
+}
+.deutsch-page #lessons .hexagon .hex:hover {
+  background: #FE0000;
+}
+.deutsch-page #lessons .hexagon .hex:hover p {
+  color: #fff;
+}
+.deutsch-page #lessons .hexagon .standart p {
+  top: 17px;
+}
+.deutsch-page #lessons .hexagon .children p {
+  top: 18px;
+}
+.deutsch-page #lessons .hexagon .intensive p {
+  top: 30px;
+}
+.deutsch-page #lessons .hexagon .shipping p {
+  top: 18px;
+}
+.deutsch-page #lessons .hexagon .skype p {
+  top: 20px;
+}
+.deutsch-page #lessons .hexagon .native p {
+  top: 10px;
+}
+.deutsch-page #lessons .hexagon .speaking p {
+  top: 10px;
+}
+.deutsch-page #answer-callback {
+  background: #444444;
+  /* Firefox 19+ */
+  /* Firefox 18- */
+}
+.deutsch-page #answer-callback h2 {
+  color: #fff;
+}
+.deutsch-page #answer-callback input {
+  border: 2px solid #fff;
+  background: #c3c3c3;
+  color: #444444;
+}
+.deutsch-page #answer-callback ::-webkit-input-placeholder {
+  color: #fff;
+}
+.deutsch-page #answer-callback ::-moz-placeholder {
+  color: #fff;
+}
+.deutsch-page #answer-callback :-moz-placeholder {
+  color: #fff;
+}
+.deutsch-page #answer-callback :-ms-input-placeholder {
+  color: #fff;
+}
+.deutsch-page #answer-callback button {
+  background: #444444;
+  color: #fff;
+  border: 2px solid #fff;
+}
+.deutsch-page #answer-callback button:hover {
+  background: #777777;
+}
+.deutsch-page #standart {
+  background: #FE0000;
+}
+.deutsch-page #standart button {
+  background: #FE0000;
+  border: 2px solid #ff6565;
+}
+.deutsch-page #standart button:hover {
+  background: #ff6565;
+}
+.deutsch-page #standart .image {
+  background: url('../img/deutsch/standart-img.png') no-repeat;
+  background-size: auto 100%;
+  background-position: 50% 50%;
+}
+.deutsch-page #children .image {
+  height: 450px;
+  background: url('../img/children_img.jpg') no-repeat;
+  background-size: auto 100%;
+}
+.deutsch-page #speaking-club .lessoninfo,
+.deutsch-page #speaking-club .description {
+  border-color: #FE0000;
+}
+.deutsch-page #speaking-club h2,
+.deutsch-page #speaking-club p,
+.deutsch-page #speaking-club button,
+.deutsch-page #speaking-club li {
+  color: #FE0000;
+}
+.deutsch-page #teachers button:hover {
+  background: #FE0000;
+}
+.deutsch-page #map .text {
+  background: #FE0000;
+}
+.deutsch-page #map .text h2 {
+  color: #fff;
+}
+.deutsch-page #map .picture {
+  background: url('../img/deutsch/map-bg.jpg') no-repeat;
+  background-size: 100% 100%;
+}
 body#mainPage {
   background: none;
   padding: 0;
@@ -991,11 +1141,6 @@ body#mainPage .tagline-block {
   padding: 0;
   height: 9%;
   margin-top: 10%;
-}
-@media (max-width: 767px) {
-  body#mainPage .tagline-block {
-    margin-top: 1%;
-  }
 }
 body#mainPage .tagline-block .tagline {
   display: none;
@@ -1011,33 +1156,13 @@ body#mainPage .tagline-block .tagline {
   text-transform: uppercase;
   text-align: center;
 }
-@media (max-width: 767px) {
-  body#mainPage .tagline-block .tagline {
-    font-size: 1.1em;
-    display: block;
-  }
-}
 body#mainPage h2 {
   margin-top: 16%;
   line-height: 1.8em;
 }
-@media (max-width: 767px) {
-  body#mainPage h2 {
-    margin-top: 6%;
-    font-size: 1.5em;
-    line-height: 1.4em;
-  }
-}
 body#mainPage h3 {
   display: none;
   line-height: 1.4em;
-}
-@media (max-width: 767px) {
-  body#mainPage h3 {
-    font-size: 1.1em;
-    display: block;
-    margin-top: 10px;
-  }
 }
 body#mainPage span {
   font-weight: bold;
@@ -1053,15 +1178,6 @@ body#mainPage button {
   border: none;
   font-size: 1.1em;
 }
-@media (max-width: 767px) {
-  body#mainPage button {
-    display: inline-block;
-    width: 100px;
-    height: 35px;
-    margin-top: 5px;
-    font-size: 0.9em;
-  }
-}
 body#mainPage button:hover {
   background: #ff6565;
 }
@@ -1074,12 +1190,6 @@ body#mainPage .right {
   padding: 0;
   text-decoration: none;
 }
-@media (max-width: 767px) {
-  body#mainPage .left,
-  body#mainPage .right {
-    width: 100%;
-  }
-}
 body#mainPage .left:hover,
 body#mainPage .right:hover,
 body#mainPage .left:active,
@@ -1090,11 +1200,6 @@ body#mainPage .left {
   text-align: right;
   background: #FFE94A;
   float: left;
-}
-@media (max-width: 767px) {
-  body#mainPage .left {
-    height: 55vh;
-  }
 }
 body#mainPage .left h2,
 body#mainPage .left h3 {
@@ -1112,11 +1217,6 @@ body#mainPage .right {
   float: right;
   background: #444444;
 }
-@media (max-width: 767px) {
-  body#mainPage .right {
-    height: 45vh;
-  }
-}
 body#mainPage .right h2,
 body#mainPage .right h3 {
   color: #fff;
@@ -1124,11 +1224,6 @@ body#mainPage .right h3 {
 body#mainPage .right button {
   margin-left: 20px;
   background: #FE0000;
-}
-@media (max-width: 767px) {
-  body#mainPage .right .tagline-block {
-    display: none;
-  }
 }
 body#mainPage .right .tagline {
   color: #FE0000;
@@ -1142,10 +1237,4 @@ body#mainPage .picture {
 body#mainPage .picture img {
   margin-top: 15%;
   padding: 0;
-}
-@media (max-width: 1199px) {
-  body#mainPage .picture img {
-    position: relative;
-    top: 20%;
-  }
 }

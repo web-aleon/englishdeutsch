@@ -30,6 +30,13 @@ body{
 	font-family: 'Roboto', sans-serif;
 	font-size: 14px;
 }
+a.anchor{
+	margin-top: -98px;
+	display: inline-block;
+	position: relative;
+	height: 98px;
+	width: 0px;
+}
 h2{
 	text-transform: uppercase;
 	margin-top: 40px;
@@ -165,12 +172,12 @@ header{
 
 
 	.head-contacts{
-		background-color: @yellow;
+		background-color: @gray;
 		height: 28px;
 	}
 	.mobile{
 		float:right;
-		color: @gray;
+		color: @white;
 		font-weight: bold;
 		line-height: 2em;
 	}
@@ -1128,6 +1135,207 @@ footer{
 	}
 }
 // END FOOTER
+// ----------------------------------------------------------------------------------------------
+
+// ------DEUTSCH L-PAGE STYLES-------
+.deutsch-page{
+	background: url('../img/deutsch/background.jpg') repeat;
+	background-size: contain;
+	background-attachment: fixed;
+
+	// MINI MESSAGE
+	.mini-message{
+		background: url('../img/deutsch/cloud.png') 50% 50% no-repeat;
+		background-size: 100% auto;
+	}
+
+	// TITLE SCREEN
+	#titlescreen{
+		.titlescreen{
+			background: @red;
+			
+			h1,h3,p{
+				color: @white;			
+			}
+			h1{
+				border-bottom: 1px solid @white;
+			}
+			.titleimage{
+				background: url('../img/deutsch/head-koln.jpg');
+				background-size: 100% 100%;
+			}
+			img{
+				height: 100%;
+			}
+		}
+	}
+
+	//ADVANTAGES
+	#advantage{
+		button{
+			background: @red;
+			color: @white;
+		}
+		button:hover{
+			background: darken(@red, 20%);
+		}
+		.adv{
+			.adv-cell:hover img{
+				background: @red;
+			}
+		}
+	}
+
+	// LESSONS
+	#lessons{
+
+		.bg-transparent{
+			background: rgba(255,255,255,0.85);
+		}
+		.hexagon{
+			
+			.hex:hover{
+				background: @red;
+
+				p{
+					color: @white;
+				}
+			}
+			.standart{
+
+				p{
+					top: 17px;
+					
+				}
+			}
+			.children{
+				
+				p{
+					top: 18px;
+				}
+			}
+			.intensive{
+				
+				p{
+					top: 30px;
+				}
+			}
+			.shipping{
+
+				p{
+					top: 18px;
+				}
+			}
+			.skype{
+				
+				p{
+					top: 20px;
+				}
+			}
+			.native{
+				
+				p{
+					top: 10px;
+				}
+			}
+			.speaking{
+				
+				p{
+					top: 10px;
+				}
+			}
+		}
+	}
+
+	// ANSWER CALLBACK
+	#answer-callback{
+		background: @gray;
+
+		h2{
+			color: @white;
+		}
+		input{
+			border: 2px solid @white;
+			background: lighten(@gray, 50%);		
+			color: @gray;
+		}
+
+		::-webkit-input-placeholder {color:@white}
+		::-moz-placeholder          {color:@white}/* Firefox 19+ */
+		:-moz-placeholder           {color:@white}/* Firefox 18- */
+		:-ms-input-placeholder      {color:@white}	
+
+		button{
+			background: @gray;
+			color: @white;
+			border: 2px solid @white;
+		}
+		button:hover{
+			background: lighten(@gray, 20%);
+		}
+	}
+	
+	// ALL LESSONS
+		// STANDART
+	#standart{
+		background: @red;
+		button{
+			background: @red;
+			border: 2px solid lighten(@red, 20%);
+		}
+		button:hover{
+			background: lighten(@red, 20%);
+		}
+		.image{
+			background: url('../img/deutsch/standart-img.png') no-repeat;
+			background-size: auto 100%;
+			background-position: 50% 50%;
+		}
+	}
+		// CHILDREN
+	#children{
+		.image{
+			height: 450px;
+			background: url('../img/children_img.jpg') no-repeat;
+			background-size: auto 100%;
+		}
+	}
+		// SPEAKING CLUB
+	#speaking-club{
+		.lessoninfo, .description{
+			border-color: @red;
+		}
+		h2, p, button, li{
+			color: @red;
+		}
+	}
+
+	// TEACHERS
+	#teachers{
+		button:hover{
+			background: @red;
+		}
+	}
+
+	// MAP
+	#map{
+		.text{
+			background: @red;
+			h2{
+				color: @white;
+			}	
+		}
+		.picture{
+			background: url('../img/deutsch/map-bg.jpg') no-repeat;
+			background-size: 100% 100%;
+		}
+	}
+
+	// EMPTY
+	// #empty{
+	// 	background: @white url('../img/deutsch/empty-bg.png') left bottom repeat-x;
+	// }
+}
 
 // ----------------------------------------------------------------------------------------------
 
@@ -1140,9 +1348,6 @@ body#mainPage{
 		padding: 0; 
 		height: 9%;
 		margin-top: 10%;
-		@media (max-width: 767px){
-			margin-top: 1%;
-		}
 		
 		.tagline{
 			display: none;
@@ -1157,30 +1362,15 @@ body#mainPage{
 			line-height: 1em;
 			text-transform: uppercase;
 			text-align: center;
-
-			@media (max-width: 767px){
-				font-size: 1.1em;
-				display: block;
-			}
 		}
 	}
 	h2{
 		margin-top: 16%;
 		line-height: 1.8em;
-		@media (max-width: 767px){
-			margin-top: 6%;
-			font-size: 1.5em;
-			line-height: 1.4em;
-		}
 	}
 	h3{
 		display: none;
 		line-height: 1.4em;
-		@media (max-width: 767px){
-			font-size: 1.1em;
-			display: block;
-			margin-top: 10px;
-		}
 	}
 	span{
 		font-weight: bold;
@@ -1195,15 +1385,6 @@ body#mainPage{
 		color: @white;
 		border: none;
 		font-size: 1.1em;
-
-		@media (max-width: 767px){
-			display: inline-block;
-			width: 100px;
-			height: 35px;
-			margin-top: 5px;
-			font-size: 0.9em;
-
-		}
 	}
 	button:hover{
 		background: lighten(@red, 20%);
@@ -1215,9 +1396,6 @@ body#mainPage{
 		height: 100vh;
 		padding: 0;
 		text-decoration: none;
-		@media (max-width: 767px){
-			width: 100%;
-		}
 	}
 	.left:hover, .right:hover, .left:active, .right:active{
 		text-decoration: none;
@@ -1226,10 +1404,6 @@ body#mainPage{
 		text-align: right;
 		background: @yellow;
 		float: left;
-
-		@media (max-width: 767px){
-			height: 55vh;
-		}
 
 		h2, h3{
 			color: @gray;
@@ -1246,10 +1420,6 @@ body#mainPage{
 		text-align: left;
 		float: right;
 		background: @gray;
-
-		@media (max-width: 767px){
-			height: 45vh;
-		}
 		
 		h2, h3{
 			color: @white;
@@ -1257,11 +1427,6 @@ body#mainPage{
 		button{
 			margin-left: 20px;
 			background: @red;
-		}
-		.tagline-block{
-			@media (max-width: 767px){
-				display: none;
-			}
 		}
 		.tagline{
 			color: @red;
@@ -1276,11 +1441,6 @@ body#mainPage{
 		img{
 			margin-top: 15%;
 			padding: 0;
-
-			@media (max-width: 1199px){
-				position: relative;
-				top: 20%;
-			}
 		}
 	}
 

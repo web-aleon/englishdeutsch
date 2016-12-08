@@ -226,6 +226,24 @@
 	}
 	// END MAP
 
+
+
+	// MAIN PAGE
+	body#mainPage{
+		
+		.picture{
+			
+			img{
+
+				@media (max-width: 1199px){
+					position: relative;
+					top: 20%;
+				}
+			}
+		}
+
+	}	
+	// END MAIN PAGE
 }
 
 @media (max-width: 767px){
@@ -543,5 +561,103 @@
 		}
 	}
 	// END FOOTER
+
+
+	// ------DEUTSCH L-PAGE STYLES-------
+	.deutsch-page{
+		background: url('../img/deutsch/background.jpg') repeat;
+		background-size: contain;
+		background-attachment: fixed;
+
+		// MINI MESSAGE
+		.mini-message{
+			background: url('../img/deutsch/cloud.png') 50% 50% no-repeat;
+			background-size: 100% auto;
+		}
+
+		// TITLE SCREEN
+		#titlescreen{
+			.titlescreen{
+					text-align: center;
+					background: url('../img/deutsch/head-koln.jpg') no-repeat;
+					background-size: 100% 100%;
+				
+				.mobile-head-bg{
+					background: @red;
+				}
+			}
+		}
+		
+		// LESSONS
+		#lessons{
+
+			.hexagon{
+
+				.row2{
+					height: 330px;
+					margin: 0px auto 0;	
+				}
+				.standart,
+				.children,
+				.skype,
+				.speaking{
+					margin-top: 70px;
+				}
+				.intensive,
+				.shipping,
+				.native,
+				.empty{
+					display: none;
+				}
+			}
+		}
+
+
+	}
+	// ------ENDDEUTSCH L-PAGE STYLES-------
+
+	// MAIN PAGE
+	body#mainPage{
+		
+		.tagline-block{
+			margin-top: 1%;
+			
+			.tagline{
+				display: block;
+				font-size: 1.1em;
+			}
+		}
+		h2{
+			margin-top: 6%;
+			font-size: 1.5em;
+			line-height: 1.4em;
+		}
+		h3{
+			font-size: 1.1em;
+			display: block;
+			margin-top: 10px;
+		}
+		button{
+			display: inline-block;
+			width: 100px;
+			height: 35px;
+			margin-top: 5px;
+			font-size: 0.9em;
+		}
+		.left, .right{
+			width: 100%;
+		}
+		.left{
+			height: 55vh;
+		}
+		.right{
+			height: 45vh;
+
+			.tagline-block{
+				display: none;
+			}
+		}
+	}	
+	// END MAIN PAGE
 
 }
