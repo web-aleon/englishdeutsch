@@ -12,11 +12,11 @@
 ?>
 	<!-- FOOTER -->
 
-		<!-- EMPTY -->
-		<div id="empty" class="container-fluid"></div>
-		<!-- END EMPTY -->
-
 	</div><!-- #content -->
+	
+	<!-- EMPTY -->
+	<div id="empty" class="container-fluid"></div>
+	<!-- END EMPTY -->
 
 	<footer id="footer">
 	  <div class="container">

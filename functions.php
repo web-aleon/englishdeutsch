@@ -175,3 +175,12 @@ require get_template_directory() . '/inc/customizer.php';
  * Load Jetpack compatibility file.
  */
 require get_template_directory() . '/inc/jetpack.php';
+
+
+// MY FUNCTIONS 
+// Делаем ссылку "читать далее" в архиве постов
+add_filter('excerpt_more', 'new_excerpt_more');
+function new_excerpt_more($more) {
+	global $post;
+	return '...<br><a href="'. get_permalink($post->ID) . '" class="archive-readmore" >Читать дальше...</a>';
+}

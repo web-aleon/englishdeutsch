@@ -126,39 +126,41 @@ input[type="submit"]:active {
   background-size: 100% 100%;
   background-attachment: fixed;
 }
-header {
-  background: #fff;
+header.site-header {
   position: fixed;
   top: 0;
-  float: left;
-  width: 100%;
   z-index: 9999;
 }
-header .head-contacts {
+header#masthead {
+  background: #fff;
+  float: left;
+  width: 100%;
+}
+header#masthead .head-contacts {
   background-color: #444444;
   height: 28px;
 }
-header .mobile {
+header#masthead .mobile {
   float: right;
   color: #fff;
   font-weight: bold;
   line-height: 2em;
 }
-header .mobile:hover,
-header .mobile:active {
+header#masthead .mobile:hover,
+header#masthead .mobile:active {
   text-decoration: none;
 }
-header .custom-logo-link {
+header#masthead .custom-logo-link {
   height: auto;
   text-align: center;
   padding: 0 0 0 15px;
   float: left;
 }
-header .custom-logo-link .custom-logo {
+header#masthead .custom-logo-link .custom-logo {
   height: 70px;
   width: auto;
 }
-header nav.navbar {
+header#masthead nav.navbar {
   background: none;
   border: none;
   margin-bottom: 0;
@@ -167,21 +169,21 @@ header nav.navbar {
   float: left;
   width: 100%;
 }
-header nav.navbar li a {
+header#masthead nav.navbar li a {
   padding-top: 25px;
   padding-bottom: 25px;
   font-size: 1.2em;
 }
-header nav.navbar ul#primary-menu li a {
+header#masthead nav.navbar ul#primary-menu li a {
   color: #444444;
 }
-header nav.navbar ul#primary-menu li:first-child a {
+header#masthead nav.navbar ul#primary-menu li:first-child a {
   padding-left: 35px;
 }
-header nav.navbar ul#anchorMenu li a {
+header#masthead nav.navbar ul#anchorMenu li a {
   color: #444444;
 }
-header nav.navbar li:hover {
+header#masthead nav.navbar li:hover {
   background: #f6f6f6;
 }
 #titlescreen {
@@ -964,30 +966,30 @@ header nav.navbar li:hover {
   height: 300px;
   background: #fff url('../img/empty-bg.png') left bottom repeat-x;
 }
-footer {
+footer#footer {
   min-height: 150px;
   background: #444444;
   color: #fff;
   padding-left: 0;
   padding-right: 0;
 }
-footer .container {
+footer#footer .container {
   padding-left: 0;
   padding-right: 0;
 }
-footer h2 {
+footer#footer h2 {
   margin-bottom: 20px;
   margin-left: 80px;
 }
-footer a {
+footer#footer a {
   margin-left: 80px;
   color: #fff;
 }
-footer a:hover {
+footer#footer a:hover {
   color: #fff;
   text-decoration: none;
 }
-footer .contacts {
+footer#footer .contacts {
   padding: 0;
 }
 .deutsch-page {
@@ -1237,4 +1239,136 @@ body#mainPage .picture {
 body#mainPage .picture img {
   margin-top: 15%;
   padding: 0;
+}
+.blog-page a {
+  transition-duration: 2s;
+}
+.blog-page #empty {
+  height: 150px;
+}
+.blog-site-header {
+  margin-bottom: 50px;
+  box-shadow: 1px 1px 2px;
+}
+aside.widget-area {
+  margin-top: 100px;
+}
+aside.widget-area .widget {
+  padding: 5px 10px;
+  border-bottom: 3px solid #FFE94A;
+  background: #444444;
+  color: #fff;
+}
+aside.widget-area .widget .widget-title {
+  margin-top: 15px;
+  margin-bottom: 20px;
+  font-size: 22px;
+}
+aside.widget-area .widget ul {
+  list-style: none;
+  margin-left: 0;
+  padding-left: 10px;
+}
+aside.widget-area .widget li {
+  margin-bottom: 10px;
+}
+aside.widget-area .widget a,
+aside.widget-area .widget a:visited {
+  color: #FFE94A;
+}
+aside.widget-area .widget a:hover,
+aside.widget-area .widget a:visited:hover {
+  text-decoration: none;
+  color: #7d6e00;
+}
+.single-post-header {
+  padding: 15px;
+  text-align: center;
+  border-bottom: 1px solid #FFE94A;
+}
+.single-entry-title {
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+.entry-meta,
+.entry-footer {
+  color: #777777;
+  font-size: 12px;
+}
+.entry-meta a,
+.entry-footer a,
+.entry-meta a:visited,
+.entry-footer a:visited {
+  color: #444444;
+}
+.entry-meta a:hover,
+.entry-footer a:hover,
+.entry-meta a:visited:hover,
+.entry-footer a:visited:hover {
+  text-decoration: none;
+  color: #FFE94A;
+}
+.entry-content {
+  text-align: justify;
+  padding: 15px;
+  line-height: 1.6em;
+  border-bottom: 1px solid #FFE94A;
+  margin-bottom: 10px;
+}
+.nav-links a,
+.nav-links a:visited {
+  color: #444444;
+}
+.nav-links a:hover,
+.nav-links a:visited:hover {
+  text-decoration: none;
+  color: #FFE94A;
+}
+.archive-entry-title {
+  margin-top: 10px;
+  padding-top: 30px;
+  font-size: 22px;
+  font-weight: bold;
+  border-top: 1px solid #FFE94A;
+}
+.archive-entry-title a,
+.archive-entry-title a:visited {
+  color: #444444;
+  text-decoration: none;
+}
+.archive-entry-title a:hover,
+.archive-entry-title a:visited:hover {
+  text-decoration: none;
+  color: #FFE94A;
+}
+.archive-entry-content {
+  margin: 0;
+  border-bottom: none;
+}
+.archive-readmore,
+.archive-readmore:visited {
+  float: right;
+  display: inline-block;
+  margin-top: 10px;
+  line-height: 30px;
+  padding: 0 20px;
+  background: #FFE94A;
+  border: none;
+  border-radius: 5px;
+  font-size: 12px;
+  text-transform: uppercase;
+  color: #444444;
+}
+.archive-readmore:hover,
+.archive-readmore:visited:hover {
+  background: #e3c700;
+  text-decoration: none;
+}
+.archive-page-header {
+  text-align: center;
+  border-bottom: none;
+}
+.archive-page-header .page-title {
+  text-transform: uppercase;
+  font-size: 24px;
 }

@@ -162,13 +162,15 @@ input[type="submit"]:active
 	background-attachment: fixed;
 }
 // HEADER
-header{
-	background: @white;
+header.site-header{
 	position: fixed;
 	top: 0;
+	z-index: 9999;
+}
+header#masthead{
+	background: @white;
 	float: left;
 	width: 100%;
-	z-index: 9999;
 
 
 	.head-contacts{
@@ -1107,7 +1109,7 @@ header{
 }
 	// END EMPTY
 
-footer{
+footer#footer{
 	min-height: 150px;
 	background: @gray;
 	color: @white;
@@ -1446,3 +1448,150 @@ body#mainPage{
 
 }	
 // END MAIN PAGE
+
+
+// BLOG STYLES 
+.blog-page{
+
+	a{
+		transition-duration: 2s;
+	}
+
+	#empty{
+		height: 150px;
+	}
+}
+
+// HEADER
+.blog-site-header{
+	margin-bottom: 50px;
+	box-shadow: 1px 1px 2px;
+}
+
+// SIDEBAR
+aside.widget-area{
+	margin-top: 100px;
+
+	.widget{
+		padding: 5px 10px;
+		border-bottom: 3px solid @yellow;
+		background: @gray;
+		color: @white;
+
+		.widget-title{
+			margin-top: 15px;
+			margin-bottom: 20px;
+			font-size: 22px;
+		}
+		ul{
+			list-style: none;
+			margin-left: 0;
+			padding-left: 10px;
+		}
+		li{
+			margin-bottom: 10px;
+		}
+		a, a:visited{
+			color: @yellow;
+
+			&:hover{
+				text-decoration: none;
+				color: darken(@yellow, 40%);
+			}
+		}
+	}
+}
+
+// POST
+.single-post-header{
+	padding: 15px;
+	text-align: center;
+	border-bottom: 1px solid @yellow;
+}
+.single-entry-title{
+	margin-bottom: 5px;
+	font-weight: bold;
+}
+.entry-meta, .entry-footer{
+	color: lighten(@gray, 20%);
+	font-size: 12px;
+
+	a, a:visited{
+		color: @gray;
+
+		&:hover{
+			text-decoration: none;
+			color: @yellow;
+		}
+	}
+}
+.entry-content{
+	text-align: justify;
+	padding: 15px;
+	line-height: 1.6em;
+	border-bottom: 1px solid @yellow;
+	margin-bottom: 10px;
+}
+.nav-links{
+
+	a, a:visited{
+		color: @gray;
+
+		&:hover{
+			text-decoration: none;
+			color: @yellow;
+		}
+	}
+}
+
+// ARCHIVE
+.archive-entry-title{
+	margin-top: 10px;
+	padding-top: 30px;
+	font-size: 22px;
+	font-weight: bold;
+	border-top: 1px solid @yellow;
+
+	a, a:visited{
+		color: @gray;
+		text-decoration: none;
+
+		&:hover{
+			text-decoration: none;
+			color: @yellow;
+		}
+	}
+}
+
+.archive-entry-content{
+	margin: 0;
+	border-bottom: none;
+}
+.archive-readmore, .archive-readmore:visited{
+	float: right;
+	display: inline-block;
+	margin-top: 10px;
+	line-height: 30px;
+	padding: 0 20px;
+	background: @yellow;
+	border: none;
+	border-radius: 5px;
+	font-size: 12px;
+	text-transform: uppercase;
+	color: @gray;
+
+	&:hover{
+		background: darken(@yellow, 20%);
+		text-decoration: none;
+	}	
+}
+
+.archive-page-header{
+	text-align: center;
+	border-bottom: none;
+
+	.page-title{
+		text-transform: uppercase;
+		font-size: 24px;
+	}
+}

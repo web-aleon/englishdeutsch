@@ -25,12 +25,12 @@ function englishdeutsch_posted_on() {
 	);
 
 	$posted_on = sprintf(
-		esc_html_x( 'Статья создана %s', 'post date', 'englishdeutsch' ),
+		esc_html_x( 'Posted on %s', 'post date', 'englishdeutsch' ),
 		'<a href="' . esc_url( get_permalink() ) . '" rel="bookmark">' . $time_string . '</a>'
 	);
 
 	$byline = sprintf(
-		esc_html_x( 'автор %s', 'post author', 'englishdeutsch' ),
+		esc_html_x( 'by %s', 'post author', 'englishdeutsch' ),
 		'<span class="author vcard"><a class="url fn n" href="' . esc_url( get_author_posts_url( get_the_author_meta( 'ID' ) ) ) . '">' . esc_html( get_the_author() ) . '</a></span>'
 	);
 
@@ -49,7 +49,7 @@ function englishdeutsch_entry_footer() {
 		/* translators: used between list items, there is a space after the comma */
 		$categories_list = get_the_category_list( esc_html__( ', ', 'englishdeutsch' ) );
 		if ( $categories_list && englishdeutsch_categorized_blog() ) {
-			printf( '<span class="cat-links">' . esc_html__( 'Раздел: %1$s', 'englishdeutsch' ) . '</span>', $categories_list ); // WPCS: XSS OK.
+			printf( '<span class="cat-links">' . esc_html__( 'Posted in %1$s', 'englishdeutsch' ) . '</span>', $categories_list ); // WPCS: XSS OK.
 		}
 
 		/* translators: used between list items, there is a space after the comma */

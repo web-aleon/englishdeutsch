@@ -26,6 +26,9 @@
   .all-lessons button {
     font-size: 0.9em;
   }
+  .single-entry-title {
+    font-size: 30px;
+  }
 }
 @media (max-width: 991px) {
   header .custom-logo-link {
@@ -153,24 +156,29 @@
     background-size: cover;
     background-attachment: fixed;
   }
-  header nav.navbar {
+  header#masthead nav.navbar {
     border-top: none;
     border-bottom: 1px solid #FFE94A;
     text-align: center;
   }
-  header nav.navbar .navbar-toggle {
+  header#masthead nav.navbar .navbar-toggle {
     position: absolute;
     top: 20px;
     right: 20px;
     margin: 0;
   }
-  header nav.navbar li a {
+  header#masthead nav.navbar li a {
     font-size: 1.2em;
     padding-top: 5px;
     padding-bottom: 10px;
+    padding-left: 0;
+    padding-right: 0;
   }
-  header nav.navbar ul#primary-menu {
+  header#masthead nav.navbar ul#primary-menu {
     border-bottom: 1px solid #FFE94A;
+  }
+  header#masthead nav.navbar ul#primary-menu li:first-child a {
+    padding-left: 0px;
   }
   #titlescreen {
     margin-top: 110px;
@@ -382,16 +390,16 @@
   #empty {
     height: 200px;
   }
-  footer {
+  footer#footer {
     text-align: center;
   }
-  footer h2 {
+  footer#footer h2 {
     margin-left: 0;
   }
-  footer a {
+  footer#footer a {
     margin-left: 0;
   }
-  footer .contacts {
+  footer#footer .contacts {
     width: 100%;
   }
   .deutsch-page {
@@ -463,5 +471,33 @@
   }
   body#mainPage .right .tagline-block {
     display: none;
+  }
+  .blog-site-header {
+    margin-bottom: 30px;
+  }
+  aside.widget-area {
+    margin-top: 20px;
+  }
+  aside.widget-area .widget {
+    text-align: center;
+  }
+  aside.widget-area .widget .widget-title {
+    margin-top: 10px;
+    margin-bottom: 15px;
+  }
+  aside.widget-area .widget ul {
+    padding-left: 0;
+  }
+  aside.widget-area .widget li {
+    margin-bottom: 10px;
+  }
+  .single-entry-title {
+    font-size: 20px;
+    margin-top: 0;
+  }
+  .entry-content {
+    text-align: justify;
+    padding-left: 0;
+    padding-right: 0;
   }
 }

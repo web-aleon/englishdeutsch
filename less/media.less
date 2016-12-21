@@ -60,6 +60,14 @@
 		}
 	}
 	// END ALL LESSONS
+
+	// BLOG STYLES
+
+	// POST
+	.single-entry-title{
+		font-size: 30px;
+	}
+
 }
 
 @media (max-width: 991px){
@@ -226,8 +234,6 @@
 	}
 	// END MAP
 
-
-
 	// MAIN PAGE
 	body#mainPage{
 		
@@ -256,7 +262,7 @@
 	}
 	
 	// HEADER
-	header{
+	header#masthead{
 		
 		nav.navbar{ 
 			border-top: none;
@@ -275,10 +281,21 @@
 					font-size: 1.2em;
 					padding-top: 5px;
 					padding-bottom: 10px;
+					padding-left: 0;
+					padding-right: 0;
 				}
 			}
 			ul#primary-menu{
 				border-bottom: 1px solid @yellow;
+
+				li{
+					&:first-child{
+					
+						a{
+							padding-left: 0px;
+						}
+					}
+				}
 			}
 		}
 	}
@@ -546,7 +563,7 @@
 	}
 		// END EMPTY
 
-	footer{
+	footer#footer{
 		text-align: center;
 		
 		h2{
@@ -659,5 +676,44 @@
 		}
 	}	
 	// END MAIN PAGE
+
+	// BLOG STYLES 
+
+	// HEADER
+	.blog-site-header{
+		margin-bottom: 30px;
+	}
+	
+	// SIDEBAR
+	aside.widget-area{
+		margin-top: 20px;
+
+		.widget{
+			text-align: center;
+
+			.widget-title{
+				margin-top: 10px;
+				margin-bottom: 15px;
+			}
+			ul{
+				padding-left: 0;
+			}
+			li{
+				margin-bottom: 10px;
+			}
+		}
+	}
+
+	// POST 
+	.single-entry-title{
+		font-size: 20px;
+		margin-top: 0;
+	}
+	.entry-content{
+		text-align: justify;
+		padding-left: 0;
+		padding-right: 0;
+	}
+
 
 }
